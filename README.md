@@ -1,10 +1,24 @@
+# Fork of Seti UI
+
+This is a fork of [https://github.com/jesseweed/seti-ui](https://github.com/jesseweed/seti-ui) with added automation tooling allowing easy regeneration of font and svg assets. A Makefile has been added with a `generate` target that will regenerate font file assets for use in our application.
+
+To update fonts:
+
+1. Ensure an upstream remote has been added to your local git repo via `git remote add upstream https://github.com/jesseweed/seti-ui`
+2. Pull and merge any latest changes from upstream: `git pull upstream master`
+3. Regenerate font files: `make generate`
+
+The above command will `ls` out the contents of `./styles/_fonts/seti`. All of these files (save the .bak file) can be copied into our application for use.
+
+-------
+
 # Seti UI
 
 [![Gitter](https://img.shields.io/gitter/room/jesseweed/seti-ui.svg?style=flat-square)](https://gitter.im/jesseweed/seti-ui) [![apm](https://img.shields.io/apm/dm/seti-ui.svg?style=flat-square)](https://atom.io/themes/seti-ui) [![apm](https://img.shields.io/apm/v/seti-ui.svg?style=flat-square)](https://atom.io/themes/seti-ui) [![apm](https://img.shields.io/apm/l/seti-ui.svg?style=flat-square)](https://atom.io/themes/seti-ui)
 [![Gratipay Team](https://img.shields.io/gratipay/team/atom-seti-ui.svg?style=flat-square)](https://gratipay.com/Atom-Seti-UI/)
 
 ### Seti-UI Theme, and VS Code icon pack
- 
+
 This repo contains the latest version of the Seti UI theme. It's a dark interface theme crafted especially for [Atom](http://atom.io), with subtle colors that are meant to be easy on the eyes. It includes custom file icons, and new user configurable settings. [Seti Syntax](https://atom.io/themes/seti-syntax) is also available for all your codez.
 
 The icons in this repo are used as the defaults in the file explorer in VS Code also.
@@ -140,7 +154,7 @@ Once everything is setup, follow these steps any time you want to add a new icon
   The first parameter `'.scss'` is the file extension you want to target, the second parameter `'sass'` is the name of the icon you just created, without the extension (sass.svg), and the last parameter `@pink` indicated what color the icon should be.
 
   There are currently 9 supported icon colors:
-  
+
     - `@blue`
     - `@grey`
     - `@green`
