@@ -10,7 +10,8 @@
   },
   "main": "lib/main",
   "scripts": {
-    "prepublishOnly": "gulp icons"
+    "prepublishOnly": "gulp icons",
+    "less": "lessc styles/_fonts/seti.less styles/_fonts/seti/seti.css"
   },
   "configSchema": {
     "themeColor": {
@@ -88,9 +89,14 @@
     }
   },
   "devDependencies": {
+    "graceful-fs": "^4.2.2",
     "gulp": "^3.9.1",
     "gulp-iconfont": "8.0.1",
     "gulp-iconfont-css": "^2.1.0",
     "gulp-svgmin": "^1.2.3"
+  },
+  "dependencies": {
+    "graceful-fs": "^4.2.2",
+    "less": "^3.12.2"
   }
 }

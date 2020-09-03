@@ -1,0 +1,3227 @@
+.icon-file-binary:before,
+.icon-file-pdf:before,
+.icon-file-text:before,
+.icon-book:before,
+.icon-file-media:before,
+.icon-markdown:before,
+.title:before {
+  content: '\E021';
+  color: #d4d7d6;
+}
+.icon:not(.icon-file-directory)[data-name$=".bsl"]:before,
+.title[data-name$=".bsl"]:before {
+  content: '\E008';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name$=".mdo"]:before,
+.title[data-name$=".mdo"]:before {
+  content: '\E05E';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name$=".asm"]:before,
+.title[data-name$=".asm"]:before {
+  content: '\E004';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name$=".s"]:before,
+.title[data-name$=".s"]:before {
+  content: '\E004';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name$=".c"]:before,
+.title[data-name$=".c"]:before {
+  content: '\E00A';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".h"]:before,
+.title[data-name$=".h"]:before {
+  content: '\E00A';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".m"]:before,
+.title[data-name$=".m"]:before {
+  content: '\E00A';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name$=".cs"]:before,
+.title[data-name$=".cs"]:before {
+  content: '\E009';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".cshtml"]:before,
+.title[data-name$=".cshtml"]:before {
+  content: '\E044';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".aspx"]:before,
+.title[data-name$=".aspx"]:before {
+  content: '\E044';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".ascx"]:before,
+.title[data-name$=".ascx"]:before {
+  content: '\E044';
+  color: #8dc149;
+}
+.icon:not(.icon-file-directory)[data-name$=".asax"]:before,
+.title[data-name$=".asax"]:before {
+  content: '\E044';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name$=".master"]:before,
+.title[data-name$=".master"]:before {
+  content: '\E044';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name$=".cc"]:before,
+.title[data-name$=".cc"]:before {
+  content: '\E018';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".cpp"]:before,
+.title[data-name$=".cpp"]:before {
+  content: '\E018';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".cxx"]:before,
+.title[data-name$=".cxx"]:before {
+  content: '\E018';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".c++"]:before,
+.title[data-name$=".c++"]:before {
+  content: '\E018';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".hh"]:before,
+.title[data-name$=".hh"]:before {
+  content: '\E018';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".hpp"]:before,
+.title[data-name$=".hpp"]:before {
+  content: '\E018';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".hxx"]:before,
+.title[data-name$=".hxx"]:before {
+  content: '\E018';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".h++"]:before,
+.title[data-name$=".h++"]:before {
+  content: '\E018';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".mm"]:before,
+.title[data-name$=".mm"]:before {
+  content: '\E018';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name$=".clj"]:before,
+.title[data-name$=".clj"]:before {
+  content: '\E011';
+  color: #8dc149;
+}
+.icon:not(.icon-file-directory)[data-name$=".cljs"]:before,
+.title[data-name$=".cljs"]:before {
+  content: '\E011';
+  color: #8dc149;
+}
+.icon:not(.icon-file-directory)[data-name$=".cljc"]:before,
+.title[data-name$=".cljc"]:before {
+  content: '\E011';
+  color: #8dc149;
+}
+.icon:not(.icon-file-directory)[data-name$=".edn"]:before,
+.title[data-name$=".edn"]:before {
+  content: '\E011';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".cfc"]:before,
+.title[data-name$=".cfc"]:before {
+  content: '\E016';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".cfm"]:before,
+.title[data-name$=".cfm"]:before {
+  content: '\E016';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".coffee"]:before,
+.title[data-name$=".coffee"]:before {
+  content: '\E014';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name$=".litcoffee"]:before,
+.title[data-name$=".litcoffee"]:before {
+  content: '\E014';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name$=".config"]:before,
+.title[data-name$=".config"]:before {
+  content: '\E017';
+  color: #6d8086;
+}
+.icon:not(.icon-file-directory)[data-name$=".cfg"]:before,
+.title[data-name$=".cfg"]:before {
+  content: '\E017';
+  color: #6d8086;
+}
+.icon:not(.icon-file-directory)[data-name$=".conf"]:before,
+.title[data-name$=".conf"]:before {
+  content: '\E017';
+  color: #6d8086;
+}
+.icon:not(.icon-file-directory)[data-name$=".cr"]:before,
+.title[data-name$=".cr"]:before {
+  content: '\E019';
+  color: #d4d7d6;
+}
+.icon:not(.icon-file-directory)[data-name$=".ecr"]:before,
+.title[data-name$=".ecr"]:before {
+  content: '\E01A';
+  color: #d4d7d6;
+}
+.icon:not(.icon-file-directory)[data-name$=".slang"]:before,
+.title[data-name$=".slang"]:before {
+  content: '\E01A';
+  color: #d4d7d6;
+}
+.icon:not(.icon-file-directory)[data-name$=".cson"]:before,
+.title[data-name$=".cson"]:before {
+  content: '\E051';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name$=".css"]:before,
+.title[data-name$=".css"]:before {
+  content: '\E01B';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".css.map"]:before,
+.title[data-name$=".css.map"]:before {
+  content: '\E01B';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".sss"]:before,
+.title[data-name$=".sss"]:before {
+  content: '\E01B';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".csv"]:before,
+.title[data-name$=".csv"]:before {
+  content: '\E01C';
+  color: #8dc149;
+}
+.icon:not(.icon-file-directory)[data-name$=".xls"]:before,
+.title[data-name$=".xls"]:before {
+  content: '\E099';
+  color: #8dc149;
+}
+.icon:not(.icon-file-directory)[data-name$=".xlsx"]:before,
+.title[data-name$=".xlsx"]:before {
+  content: '\E099';
+  color: #8dc149;
+}
+.icon:not(.icon-file-directory)[data-name$=".cu"]:before,
+.title[data-name$=".cu"]:before {
+  content: '\E01D';
+  color: #8dc149;
+}
+.icon:not(.icon-file-directory)[data-name$=".cuh"]:before,
+.title[data-name$=".cuh"]:before {
+  content: '\E01D';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".hu"]:before,
+.title[data-name$=".hu"]:before {
+  content: '\E01D';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".cake"]:before,
+.title[data-name$=".cake"]:before {
+  content: '\E00B';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name$=".ctp"]:before,
+.title[data-name$=".ctp"]:before {
+  content: '\E00C';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name$=".d"]:before,
+.title[data-name$=".d"]:before {
+  content: '\E01E';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name$=".doc"]:before,
+.title[data-name$=".doc"]:before {
+  content: '\E098';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".docx"]:before,
+.title[data-name$=".docx"]:before {
+  content: '\E098';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".ejs"]:before,
+.title[data-name$=".ejs"]:before {
+  content: '\E025';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name$=".ex"]:before,
+.title[data-name$=".ex"]:before {
+  content: '\E026';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".exs"]:before,
+.title[data-name$=".exs"]:before {
+  content: '\E027';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name*="mix"]:before,
+.title[data-name*="mix"]:before {
+  content: '\E043';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name$=".elm"]:before,
+.title[data-name$=".elm"]:before {
+  content: '\E028';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".ico"]:before,
+.title[data-name$=".ico"]:before {
+  content: '\E02D';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name$=".fs"]:before,
+.title[data-name$=".fs"]:before {
+  content: '\E02C';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".fsx"]:before,
+.title[data-name$=".fsx"]:before {
+  content: '\E02C';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".gitignore"]:before,
+.title[data-name$=".gitignore"]:before {
+  content: '\E032';
+  color: #41535b;
+}
+.icon:not(.icon-file-directory)[data-name$=".gitconfig"]:before,
+.title[data-name$=".gitconfig"]:before {
+  content: '\E032';
+  color: #41535b;
+}
+.icon:not(.icon-file-directory)[data-name$=".gitkeep"]:before,
+.title[data-name$=".gitkeep"]:before {
+  content: '\E032';
+  color: #41535b;
+}
+.icon:not(.icon-file-directory)[data-name$=".gitattributes"]:before,
+.title[data-name$=".gitattributes"]:before {
+  content: '\E032';
+  color: #41535b;
+}
+.icon:not(.icon-file-directory)[data-name$=".gitmodules"]:before,
+.title[data-name$=".gitmodules"]:before {
+  content: '\E032';
+  color: #41535b;
+}
+.icon:not(.icon-file-directory)[data-name$=".go"]:before,
+.title[data-name$=".go"]:before {
+  content: '\E037';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".slide"]:before,
+.title[data-name$=".slide"]:before {
+  content: '\E036';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".article"]:before,
+.title[data-name$=".article"]:before {
+  content: '\E036';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".gradle"]:before,
+.title[data-name$=".gradle"]:before {
+  content: '\E038';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".groovy"]:before,
+.title[data-name$=".groovy"]:before {
+  content: '\E039';
+  color: #8dc149;
+}
+.icon:not(.icon-file-directory)[data-name$=".gsp"]:before,
+.title[data-name$=".gsp"]:before {
+  content: '\E039';
+  color: #8dc149;
+}
+.icon:not(.icon-file-directory)[data-name$=".gql"]:before,
+.title[data-name$=".gql"]:before {
+  content: '\E03A';
+  color: #f55385;
+}
+.icon:not(.icon-file-directory)[data-name$=".graphql"]:before,
+.title[data-name$=".graphql"]:before {
+  content: '\E03A';
+  color: #f55385;
+}
+.icon:not(.icon-file-directory)[data-name$=".haml"]:before,
+.title[data-name$=".haml"]:before {
+  content: '\E03E';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name$=".handlebars"]:before,
+.title[data-name$=".handlebars"]:before {
+  content: '\E05F';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name$=".hbs"]:before,
+.title[data-name$=".hbs"]:before {
+  content: '\E05F';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name$=".hjs"]:before,
+.title[data-name$=".hjs"]:before {
+  content: '\E05F';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name$=".hs"]:before,
+.title[data-name$=".hs"]:before {
+  content: '\E040';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".lhs"]:before,
+.title[data-name$=".lhs"]:before {
+  content: '\E040';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".hx"]:before,
+.title[data-name$=".hx"]:before {
+  content: '\E041';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name$=".hxs"]:before,
+.title[data-name$=".hxs"]:before {
+  content: '\E041';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name$=".hxp"]:before,
+.title[data-name$=".hxp"]:before {
+  content: '\E041';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".hxml"]:before,
+.title[data-name$=".hxml"]:before {
+  content: '\E041';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".html"]:before,
+.title[data-name$=".html"]:before {
+  content: '\E044';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name$=".jade"]:before,
+.title[data-name$=".jade"]:before {
+  content: '\E04B';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name$=".java"]:before,
+.title[data-name$=".java"]:before {
+  content: '\E04C';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name$=".class"]:before,
+.title[data-name$=".class"]:before {
+  content: '\E04C';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name$=".classpath"]:before,
+.title[data-name$=".classpath"]:before {
+  content: '\E04C';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name$=".properties"]:before,
+.title[data-name$=".properties"]:before {
+  content: '\E04C';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name$=".js"]:before,
+.title[data-name$=".js"]:before {
+  content: '\E04D';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name$=".js.map"]:before,
+.title[data-name$=".js.map"]:before {
+  content: '\E04D';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name$=".spec.js"]:before,
+.title[data-name$=".spec.js"]:before {
+  content: '\E04D';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name$=".test.js"]:before,
+.title[data-name$=".test.js"]:before {
+  content: '\E04D';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name$=".es"]:before,
+.title[data-name$=".es"]:before {
+  content: '\E04D';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name$=".es5"]:before,
+.title[data-name$=".es5"]:before {
+  content: '\E04D';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name$=".es6"]:before,
+.title[data-name$=".es6"]:before {
+  content: '\E04D';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name$=".es7"]:before,
+.title[data-name$=".es7"]:before {
+  content: '\E04D';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name$=".jinja"]:before,
+.title[data-name$=".jinja"]:before {
+  content: '\E04F';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name$=".jinja2"]:before,
+.title[data-name$=".jinja2"]:before {
+  content: '\E04F';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name$=".json"]:before,
+.title[data-name$=".json"]:before {
+  content: '\E051';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name$=".jl"]:before,
+.title[data-name$=".jl"]:before {
+  content: '\E052';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$="karma.conf.js"]:before,
+.title[data-name$="karma.conf.js"]:before {
+  content: '\E053';
+  color: #8dc149;
+}
+.icon:not(.icon-file-directory)[data-name$="karma.conf.coffee"]:before,
+.title[data-name$="karma.conf.coffee"]:before {
+  content: '\E053';
+  color: #8dc149;
+}
+.icon:not(.icon-file-directory)[data-name$=".kt"]:before,
+.title[data-name$=".kt"]:before {
+  content: '\E054';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name$=".kts"]:before,
+.title[data-name$=".kts"]:before {
+  content: '\E054';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name$=".dart"]:before,
+.title[data-name$=".dart"]:before {
+  content: '\E01F';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".less"]:before,
+.title[data-name$=".less"]:before {
+  content: '\E055';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".liquid"]:before,
+.title[data-name$=".liquid"]:before {
+  content: '\E057';
+  color: #8dc149;
+}
+.icon:not(.icon-file-directory)[data-name$=".ls"]:before,
+.title[data-name$=".ls"]:before {
+  content: '\E058';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".lua"]:before,
+.title[data-name$=".lua"]:before {
+  content: '\E05A';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".markdown"]:before,
+.title[data-name$=".markdown"]:before {
+  content: '\E05C';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".md"]:before,
+.title[data-name$=".md"]:before {
+  content: '\E05C';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".argdown"]:before,
+.title[data-name$=".argdown"]:before {
+  content: '\E003';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".ad"]:before,
+.title[data-name$=".ad"]:before {
+  content: '\E003';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$="README.md"]:before,
+.title[data-name$="README.md"]:before {
+  content: '\E049';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$="CHANGELOG.md"]:before,
+.title[data-name$="CHANGELOG.md"]:before {
+  content: '\E010';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$="CHANGELOG"]:before,
+.title[data-name$="CHANGELOG"]:before {
+  content: '\E010';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$="CHANGES.md"]:before,
+.title[data-name$="CHANGES.md"]:before {
+  content: '\E010';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$="VERSION.md"]:before,
+.title[data-name$="VERSION.md"]:before {
+  content: '\E010';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$="VERSION"]:before,
+.title[data-name$="VERSION"]:before {
+  content: '\E010';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$="mvnw"]:before,
+.title[data-name$="mvnw"]:before {
+  content: '\E05D';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name$=".mustache"]:before,
+.title[data-name$=".mustache"]:before {
+  content: '\E05F';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name$=".stache"]:before,
+.title[data-name$=".stache"]:before {
+  content: '\E05F';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name$=".nim"]:before,
+.title[data-name$=".nim"]:before {
+  content: '\E061';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name$=".nims"]:before,
+.title[data-name$=".nims"]:before {
+  content: '\E061';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name$=".njk"]:before,
+.title[data-name$=".njk"]:before {
+  content: '\E064';
+  color: #8dc149;
+}
+.icon:not(.icon-file-directory)[data-name$=".nunjucks"]:before,
+.title[data-name$=".nunjucks"]:before {
+  content: '\E064';
+  color: #8dc149;
+}
+.icon:not(.icon-file-directory)[data-name$=".nunjs"]:before,
+.title[data-name$=".nunjs"]:before {
+  content: '\E064';
+  color: #8dc149;
+}
+.icon:not(.icon-file-directory)[data-name$=".nunj"]:before,
+.title[data-name$=".nunj"]:before {
+  content: '\E064';
+  color: #8dc149;
+}
+.icon:not(.icon-file-directory)[data-name$=".njs"]:before,
+.title[data-name$=".njs"]:before {
+  content: '\E064';
+  color: #8dc149;
+}
+.icon:not(.icon-file-directory)[data-name$=".nj"]:before,
+.title[data-name$=".nj"]:before {
+  content: '\E064';
+  color: #8dc149;
+}
+.icon:not(.icon-file-directory)[data-name$=".npm-debug.log"]:before,
+.title[data-name$=".npm-debug.log"]:before {
+  content: '\E062';
+  color: #41535b;
+}
+.icon:not(.icon-file-directory)[data-name$=".npmignore"]:before,
+.title[data-name$=".npmignore"]:before {
+  content: '\E062';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name$=".npmrc"]:before,
+.title[data-name$=".npmrc"]:before {
+  content: '\E062';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name$=".ml"]:before,
+.title[data-name$=".ml"]:before {
+  content: '\E065';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name$=".mli"]:before,
+.title[data-name$=".mli"]:before {
+  content: '\E065';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name$=".cmx"]:before,
+.title[data-name$=".cmx"]:before {
+  content: '\E065';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name$=".cmxa"]:before,
+.title[data-name$=".cmxa"]:before {
+  content: '\E065';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name$=".odata"]:before,
+.title[data-name$=".odata"]:before {
+  content: '\E066';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name$=".pl"]:before,
+.title[data-name$=".pl"]:before {
+  content: '\E069';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".php"]:before,
+.title[data-name$=".php"]:before {
+  content: '\E06B';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".php.inc"]:before,
+.title[data-name$=".php.inc"]:before {
+  content: '\E06B';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".pddl"]:before,
+.title[data-name$=".pddl"]:before {
+  content: '\E067';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".plan"]:before,
+.title[data-name$=".plan"]:before {
+  content: '\E06C';
+  color: #8dc149;
+}
+.icon:not(.icon-file-directory)[data-name$=".happenings"]:before,
+.title[data-name$=".happenings"]:before {
+  content: '\E03F';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".ps1"]:before,
+.title[data-name$=".ps1"]:before {
+  content: '\E06E';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".psd1"]:before,
+.title[data-name$=".psd1"]:before {
+  content: '\E06E';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".psm1"]:before,
+.title[data-name$=".psm1"]:before {
+  content: '\E06E';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".pug"]:before,
+.title[data-name$=".pug"]:before {
+  content: '\E071';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name$=".pp"]:before,
+.title[data-name$=".pp"]:before {
+  content: '\E072';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name$=".epp"]:before,
+.title[data-name$=".epp"]:before {
+  content: '\E072';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name$=".py"]:before,
+.title[data-name$=".py"]:before {
+  content: '\E073';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".jsx"]:before,
+.title[data-name$=".jsx"]:before {
+  content: '\E075';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".spec.jsx"]:before,
+.title[data-name$=".spec.jsx"]:before {
+  content: '\E075';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name$=".test.jsx"]:before,
+.title[data-name$=".test.jsx"]:before {
+  content: '\E075';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name$=".cjsx"]:before,
+.title[data-name$=".cjsx"]:before {
+  content: '\E075';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".spec.tsx"]:before,
+.title[data-name$=".spec.tsx"]:before {
+  content: '\E075';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name$=".test.tsx"]:before,
+.title[data-name$=".test.tsx"]:before {
+  content: '\E075';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name$=".re"]:before,
+.title[data-name$=".re"]:before {
+  content: '\E076';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name$=".R"]:before,
+.title[data-name$=".R"]:before {
+  content: '\E001';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".rmd"]:before,
+.title[data-name$=".rmd"]:before {
+  content: '\E001';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".rb"]:before,
+.title[data-name$=".rb"]:before {
+  content: '\E078';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name$=".erb"]:before,
+.title[data-name$=".erb"]:before {
+  content: '\E045';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name$=".erb.html"]:before,
+.title[data-name$=".erb.html"]:before {
+  content: '\E045';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name$=".html.erb"]:before,
+.title[data-name$=".html.erb"]:before {
+  content: '\E045';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name$=".rs"]:before,
+.title[data-name$=".rs"]:before {
+  content: '\E079';
+  color: #6d8086;
+}
+.icon:not(.icon-file-directory)[data-name$=".sass"]:before,
+.title[data-name$=".sass"]:before {
+  content: '\E07B';
+  color: #f55385;
+}
+.icon:not(.icon-file-directory)[data-name$=".scss"]:before,
+.title[data-name$=".scss"]:before {
+  content: '\E07B';
+  color: #f55385;
+}
+.icon:not(.icon-file-directory)[data-name$=".springBeans"]:before,
+.title[data-name$=".springBeans"]:before {
+  content: '\E083';
+  color: #8dc149;
+}
+.icon:not(.icon-file-directory)[data-name$=".slim"]:before,
+.title[data-name$=".slim"]:before {
+  content: '\E081';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name$=".smarty.tpl"]:before,
+.title[data-name$=".smarty.tpl"]:before {
+  content: '\E082';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name$=".tpl"]:before,
+.title[data-name$=".tpl"]:before {
+  content: '\E082';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name$=".sbt"]:before,
+.title[data-name$=".sbt"]:before {
+  content: '\E07C';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".scala"]:before,
+.title[data-name$=".scala"]:before {
+  content: '\E07D';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name$=".sol"]:before,
+.title[data-name$=".sol"]:before {
+  content: '\E02B';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".styl"]:before,
+.title[data-name$=".styl"]:before {
+  content: '\E085';
+  color: #8dc149;
+}
+.icon:not(.icon-file-directory)[data-name$=".swift"]:before,
+.title[data-name$=".swift"]:before {
+  content: '\E088';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name$=".sql"]:before,
+.title[data-name$=".sql"]:before {
+  content: '\E020';
+  color: #f55385;
+}
+.icon:not(.icon-file-directory)[data-name$=".tf"]:before,
+.title[data-name$=".tf"]:before {
+  content: '\E089';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".tf.json"]:before,
+.title[data-name$=".tf.json"]:before {
+  content: '\E089';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".tfvars"]:before,
+.title[data-name$=".tfvars"]:before {
+  content: '\E089';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".tex"]:before,
+.title[data-name$=".tex"]:before {
+  content: '\E08A';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".sty"]:before,
+.title[data-name$=".sty"]:before {
+  content: '\E08A';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name$=".dtx"]:before,
+.title[data-name$=".dtx"]:before {
+  content: '\E08A';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name$=".ins"]:before,
+.title[data-name$=".ins"]:before {
+  content: '\E08A';
+  color: #d4d7d6;
+}
+.icon:not(.icon-file-directory)[data-name$=".txt"]:before,
+.title[data-name$=".txt"]:before {
+  content: '\E021';
+  color: #d4d7d6;
+}
+.icon:not(.icon-file-directory)[data-name$=".toml"]:before,
+.title[data-name$=".toml"]:before {
+  content: '\E017';
+  color: #6d8086;
+}
+.icon:not(.icon-file-directory)[data-name$=".twig"]:before,
+.title[data-name$=".twig"]:before {
+  content: '\E08E';
+  color: #8dc149;
+}
+.icon:not(.icon-file-directory)[data-name$=".ts"]:before,
+.title[data-name$=".ts"]:before {
+  content: '\E08F';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".tsx"]:before,
+.title[data-name$=".tsx"]:before {
+  content: '\E08F';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".spec.ts"]:before,
+.title[data-name$=".spec.ts"]:before {
+  content: '\E08F';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name$=".test.ts"]:before,
+.title[data-name$=".test.ts"]:before {
+  content: '\E08F';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name$="tsconfig.json"]:before,
+.title[data-name$="tsconfig.json"]:before {
+  content: '\E08D';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".vala"]:before,
+.title[data-name$=".vala"]:before {
+  content: '\E090';
+  color: #6d8086;
+}
+.icon:not(.icon-file-directory)[data-name$=".vapi"]:before,
+.title[data-name$=".vapi"]:before {
+  content: '\E090';
+  color: #6d8086;
+}
+.icon:not(.icon-file-directory)[data-name$=".vue"]:before,
+.title[data-name$=".vue"]:before {
+  content: '\E092';
+  color: #8dc149;
+}
+.icon:not(.icon-file-directory)[data-name$=".wasm"]:before,
+.title[data-name$=".wasm"]:before {
+  content: '\E093';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".wat"]:before,
+.title[data-name$=".wat"]:before {
+  content: '\E094';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".xml"]:before,
+.title[data-name$=".xml"]:before {
+  content: '\E09A';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name$=".yml"]:before,
+.title[data-name$=".yml"]:before {
+  content: '\E09C';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".yaml"]:before,
+.title[data-name$=".yaml"]:before {
+  content: '\E09C';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$="swagger.json"]:before,
+.title[data-name$="swagger.json"]:before {
+  content: '\E051';
+  color: #8dc149;
+}
+.icon:not(.icon-file-directory)[data-name$="swagger.yml"]:before,
+.title[data-name$="swagger.yml"]:before {
+  content: '\E051';
+  color: #8dc149;
+}
+.icon:not(.icon-file-directory)[data-name$="swagger.yaml"]:before,
+.title[data-name$="swagger.yaml"]:before {
+  content: '\E051';
+  color: #8dc149;
+}
+.icon:not(.icon-file-directory)[data-name$=".pro"]:before,
+.title[data-name$=".pro"]:before {
+  content: '\E070';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name$=".jar"]:before,
+.title[data-name$=".jar"]:before {
+  content: '\E09D';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name$=".zip"]:before,
+.title[data-name$=".zip"]:before {
+  content: '\E09D';
+  color: #6d8086;
+}
+.icon:not(.icon-file-directory)[data-name$=".wgt"]:before,
+.title[data-name$=".wgt"]:before {
+  content: '\E096';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".ai"]:before,
+.title[data-name$=".ai"]:before {
+  content: '\E047';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name$=".psd"]:before,
+.title[data-name$=".psd"]:before {
+  content: '\E06A';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".pdf"]:before,
+.title[data-name$=".pdf"]:before {
+  content: '\E068';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name$=".eot"]:before,
+.title[data-name$=".eot"]:before {
+  content: '\E031';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name$=".ttf"]:before,
+.title[data-name$=".ttf"]:before {
+  content: '\E031';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name$=".woff"]:before,
+.title[data-name$=".woff"]:before {
+  content: '\E031';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name$=".woff2"]:before,
+.title[data-name$=".woff2"]:before {
+  content: '\E031';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name$=".gif"]:before,
+.title[data-name$=".gif"]:before {
+  content: '\E048';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".jpg"]:before,
+.title[data-name$=".jpg"]:before {
+  content: '\E048';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".jpeg"]:before,
+.title[data-name$=".jpeg"]:before {
+  content: '\E048';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".png"]:before,
+.title[data-name$=".png"]:before {
+  content: '\E048';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".pxm"]:before,
+.title[data-name$=".pxm"]:before {
+  content: '\E048';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".svg"]:before,
+.title[data-name$=".svg"]:before {
+  content: '\E087';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".svgx"]:before,
+.title[data-name$=".svgx"]:before {
+  content: '\E048';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".tiff"]:before,
+.title[data-name$=".tiff"]:before {
+  content: '\E048';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".webp"]:before,
+.title[data-name$=".webp"]:before {
+  content: '\E048';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".sublime-project"]:before,
+.title[data-name$=".sublime-project"]:before {
+  content: '\E086';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name$=".sublime-workspace"]:before,
+.title[data-name$=".sublime-workspace"]:before {
+  content: '\E086';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name$=".code-search"]:before,
+.title[data-name$=".code-search"]:before {
+  content: '\E013';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".component"]:before,
+.title[data-name$=".component"]:before {
+  content: '\E07A';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".cls"]:before,
+.title[data-name$=".cls"]:before {
+  content: '\E07A';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".sh"]:before,
+.title[data-name$=".sh"]:before {
+  content: '\E080';
+  color: #4d5a5e;
+}
+.icon:not(.icon-file-directory)[data-name$=".zsh"]:before,
+.title[data-name$=".zsh"]:before {
+  content: '\E080';
+  color: #4d5a5e;
+}
+.icon:not(.icon-file-directory)[data-name$=".fish"]:before,
+.title[data-name$=".fish"]:before {
+  content: '\E080';
+  color: #4d5a5e;
+}
+.icon:not(.icon-file-directory)[data-name$=".zshrc"]:before,
+.title[data-name$=".zshrc"]:before {
+  content: '\E080';
+  color: #4d5a5e;
+}
+.icon:not(.icon-file-directory)[data-name$=".bashrc"]:before,
+.title[data-name$=".bashrc"]:before {
+  content: '\E080';
+  color: #4d5a5e;
+}
+.icon:not(.icon-file-directory)[data-name$=".mov"]:before,
+.title[data-name$=".mov"]:before {
+  content: '\E091';
+  color: #f55385;
+}
+.icon:not(.icon-file-directory)[data-name$=".ogv"]:before,
+.title[data-name$=".ogv"]:before {
+  content: '\E091';
+  color: #f55385;
+}
+.icon:not(.icon-file-directory)[data-name$=".webm"]:before,
+.title[data-name$=".webm"]:before {
+  content: '\E091';
+  color: #f55385;
+}
+.icon:not(.icon-file-directory)[data-name$=".avi"]:before,
+.title[data-name$=".avi"]:before {
+  content: '\E091';
+  color: #f55385;
+}
+.icon:not(.icon-file-directory)[data-name$=".mpg"]:before,
+.title[data-name$=".mpg"]:before {
+  content: '\E091';
+  color: #f55385;
+}
+.icon:not(.icon-file-directory)[data-name$=".mp4"]:before,
+.title[data-name$=".mp4"]:before {
+  content: '\E091';
+  color: #f55385;
+}
+.icon:not(.icon-file-directory)[data-name$=".mp3"]:before,
+.title[data-name$=".mp3"]:before {
+  content: '\E005';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".ogg"]:before,
+.title[data-name$=".ogg"]:before {
+  content: '\E005';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".wav"]:before,
+.title[data-name$=".wav"]:before {
+  content: '\E005';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".flac"]:before,
+.title[data-name$=".flac"]:before {
+  content: '\E005';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".3ds"]:before,
+.title[data-name$=".3ds"]:before {
+  content: '\E087';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".3dm"]:before,
+.title[data-name$=".3dm"]:before {
+  content: '\E087';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".stl"]:before,
+.title[data-name$=".stl"]:before {
+  content: '\E087';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".obj"]:before,
+.title[data-name$=".obj"]:before {
+  content: '\E087';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".dae"]:before,
+.title[data-name$=".dae"]:before {
+  content: '\E087';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".bat"]:before,
+.title[data-name$=".bat"]:before {
+  content: '\E097';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".cmd"]:before,
+.title[data-name$=".cmd"]:before {
+  content: '\E097';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$="mime.types"]:before,
+.title[data-name$="mime.types"]:before {
+  content: '\E017';
+  color: #6d8086;
+}
+.icon:not(.icon-file-directory)[data-name$="Jenkinsfile"]:before,
+.title[data-name$="Jenkinsfile"]:before {
+  content: '\E04E';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name$=".babelrc"]:before,
+.title[data-name$=".babelrc"]:before {
+  content: '\E006';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name$=".babelrc.js"]:before,
+.title[data-name$=".babelrc.js"]:before {
+  content: '\E006';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name$=".babelrc.cjs"]:before,
+.title[data-name$=".babelrc.cjs"]:before {
+  content: '\E006';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name$="babel.config.js"]:before,
+.title[data-name$="babel.config.js"]:before {
+  content: '\E006';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name$="babel.config.json"]:before,
+.title[data-name$="babel.config.json"]:before {
+  content: '\E006';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name$="babel.config.cjs"]:before,
+.title[data-name$="babel.config.cjs"]:before {
+  content: '\E006';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name$="bower.json"]:before,
+.title[data-name$="bower.json"]:before {
+  content: '\E007';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name$="Bower.json"]:before,
+.title[data-name$="Bower.json"]:before {
+  content: '\E007';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name$=".bowerrc"]:before,
+.title[data-name$=".bowerrc"]:before {
+  content: '\E007';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name*="dockerfile"]:before,
+.title[data-name*="dockerfile"]:before {
+  content: '\E023';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name*="Dockerfile"]:before,
+.title[data-name*="Dockerfile"]:before {
+  content: '\E023';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name*="DOCKERFILE"]:before,
+.title[data-name*="DOCKERFILE"]:before {
+  content: '\E023';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name*=".dockerignore"]:before,
+.title[data-name*=".dockerignore"]:before {
+  content: '\E023';
+  color: #4d5a5e;
+}
+.icon:not(.icon-file-directory)[data-name*="docker-healthcheck"]:before,
+.title[data-name*="docker-healthcheck"]:before {
+  content: '\E023';
+  color: #8dc149;
+}
+.icon:not(.icon-file-directory)[data-name*="docker-compose.yml"]:before,
+.title[data-name*="docker-compose.yml"]:before {
+  content: '\E023';
+  color: #f55385;
+}
+.icon:not(.icon-file-directory)[data-name*="docker-compose.yaml"]:before,
+.title[data-name*="docker-compose.yaml"]:before {
+  content: '\E023';
+  color: #f55385;
+}
+.icon:not(.icon-file-directory)[data-name*="docker-compose.override.yml"]:before,
+.title[data-name*="docker-compose.override.yml"]:before {
+  content: '\E023';
+  color: #f55385;
+}
+.icon:not(.icon-file-directory)[data-name*="docker-compose.override.yaml"]:before,
+.title[data-name*="docker-compose.override.yaml"]:before {
+  content: '\E023';
+  color: #f55385;
+}
+.icon:not(.icon-file-directory)[data-name$=".codeclimate.yml"]:before,
+.title[data-name$=".codeclimate.yml"]:before {
+  content: '\E012';
+  color: #8dc149;
+}
+.icon:not(.icon-file-directory)[data-name$=".eslintrc"]:before,
+.title[data-name$=".eslintrc"]:before {
+  content: '\E02A';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".eslintrc.js"]:before,
+.title[data-name$=".eslintrc.js"]:before {
+  content: '\E02A';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".eslintrc.yaml"]:before,
+.title[data-name$=".eslintrc.yaml"]:before {
+  content: '\E02A';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".eslintrc.yml"]:before,
+.title[data-name$=".eslintrc.yml"]:before {
+  content: '\E02A';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".eslintrc.json"]:before,
+.title[data-name$=".eslintrc.json"]:before {
+  content: '\E02A';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name$=".eslintignore"]:before,
+.title[data-name$=".eslintignore"]:before {
+  content: '\E02A';
+  color: #4d5a5e;
+}
+.icon:not(.icon-file-directory)[data-name$=".firebaserc"]:before,
+.title[data-name$=".firebaserc"]:before {
+  content: '\E02E';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name$="firebase.json"]:before,
+.title[data-name$="firebase.json"]:before {
+  content: '\E02E';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name$="geckodriver"]:before,
+.title[data-name$="geckodriver"]:before {
+  content: '\E02F';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name$="Gruntfile.js"]:before,
+.title[data-name$="Gruntfile.js"]:before {
+  content: '\E03B';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name$="gruntfile.babel.js"]:before,
+.title[data-name$="gruntfile.babel.js"]:before {
+  content: '\E03B';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name$="Gruntfile.babel.js"]:before,
+.title[data-name$="Gruntfile.babel.js"]:before {
+  content: '\E03B';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name$="gruntfile.js"]:before,
+.title[data-name$="gruntfile.js"]:before {
+  content: '\E03B';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name$="Gruntfile.coffee"]:before,
+.title[data-name$="Gruntfile.coffee"]:before {
+  content: '\E03B';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name$="gruntfile.coffee"]:before,
+.title[data-name$="gruntfile.coffee"]:before {
+  content: '\E03B';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name*="GULPFILE"]:before,
+.title[data-name*="GULPFILE"]:before {
+  content: '\E03C';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name*="Gulpfile"]:before,
+.title[data-name*="Gulpfile"]:before {
+  content: '\E03C';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name*="gulpfile"]:before,
+.title[data-name*="gulpfile"]:before {
+  content: '\E03C';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name*="gulpfile.js"]:before,
+.title[data-name*="gulpfile.js"]:before {
+  content: '\E03C';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name$="ionic.config.json"]:before,
+.title[data-name$="ionic.config.json"]:before {
+  content: '\E04A';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$="Ionic.config.json"]:before,
+.title[data-name$="Ionic.config.json"]:before {
+  content: '\E04A';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$="ionic.project"]:before,
+.title[data-name$="ionic.project"]:before {
+  content: '\E04A';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$="Ionic.project"]:before,
+.title[data-name$="Ionic.project"]:before {
+  content: '\E04A';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".jshintrc"]:before,
+.title[data-name$=".jshintrc"]:before {
+  content: '\E04D';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".jscsrc"]:before,
+.title[data-name$=".jscsrc"]:before {
+  content: '\E04D';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$="platformio.ini"]:before,
+.title[data-name$="platformio.ini"]:before {
+  content: '\E06D';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name$="rollup.config.js"]:before,
+.title[data-name$="rollup.config.js"]:before {
+  content: '\E077';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name$="sass-lint.yml"]:before,
+.title[data-name$="sass-lint.yml"]:before {
+  content: '\E07B';
+  color: #f55385;
+}
+.icon:not(.icon-file-directory)[data-name$=".stylelintrc"]:before,
+.title[data-name$=".stylelintrc"]:before {
+  content: '\E084';
+  color: #d4d7d6;
+}
+.icon:not(.icon-file-directory)[data-name$=".stylelintrc.json"]:before,
+.title[data-name$=".stylelintrc.json"]:before {
+  content: '\E084';
+  color: #d4d7d6;
+}
+.icon:not(.icon-file-directory)[data-name$=".stylelintrc.yaml"]:before,
+.title[data-name$=".stylelintrc.yaml"]:before {
+  content: '\E084';
+  color: #d4d7d6;
+}
+.icon:not(.icon-file-directory)[data-name$=".stylelintrc.yml"]:before,
+.title[data-name$=".stylelintrc.yml"]:before {
+  content: '\E084';
+  color: #d4d7d6;
+}
+.icon:not(.icon-file-directory)[data-name$=".stylelintrc.js"]:before,
+.title[data-name$=".stylelintrc.js"]:before {
+  content: '\E084';
+  color: #d4d7d6;
+}
+.icon:not(.icon-file-directory)[data-name$=".stylelintignore"]:before,
+.title[data-name$=".stylelintignore"]:before {
+  content: '\E084';
+  color: #4d5a5e;
+}
+.icon:not(.icon-file-directory)[data-name$="stylelint.config.js"]:before,
+.title[data-name$="stylelint.config.js"]:before {
+  content: '\E084';
+  color: #d4d7d6;
+}
+.icon:not(.icon-file-directory)[data-name$="yarn.clean"]:before,
+.title[data-name$="yarn.clean"]:before {
+  content: '\E09B';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$="yarn.lock"]:before,
+.title[data-name$="yarn.lock"]:before {
+  content: '\E09B';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$="webpack.config.js"]:before,
+.title[data-name$="webpack.config.js"]:before {
+  content: '\E095';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$="webpack.config.build.js"]:before,
+.title[data-name$="webpack.config.build.js"]:before {
+  content: '\E095';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$="webpack.common.js"]:before,
+.title[data-name$="webpack.common.js"]:before {
+  content: '\E095';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$="webpack.dev.js"]:before,
+.title[data-name$="webpack.dev.js"]:before {
+  content: '\E095';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$="webpack.prod.js"]:before,
+.title[data-name$="webpack.prod.js"]:before {
+  content: '\E095';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$=".direnv"]:before,
+.title[data-name$=".direnv"]:before {
+  content: '\E017';
+  color: #6d8086;
+}
+.icon:not(.icon-file-directory)[data-name$=".env"]:before,
+.title[data-name$=".env"]:before {
+  content: '\E017';
+  color: #6d8086;
+}
+.icon:not(.icon-file-directory)[data-name$=".static"]:before,
+.title[data-name$=".static"]:before {
+  content: '\E017';
+  color: #6d8086;
+}
+.icon:not(.icon-file-directory)[data-name$=".editorconfig"]:before,
+.title[data-name$=".editorconfig"]:before {
+  content: '\E017';
+  color: #6d8086;
+}
+.icon:not(.icon-file-directory)[data-name$=".slugignore"]:before,
+.title[data-name$=".slugignore"]:before {
+  content: '\E017';
+  color: #6d8086;
+}
+.icon:not(.icon-file-directory)[data-name$=".tmp"]:before,
+.title[data-name$=".tmp"]:before {
+  content: '\E010';
+  color: #6d8086;
+}
+.icon:not(.icon-file-directory)[data-name$=".htaccess"]:before,
+.title[data-name$=".htaccess"]:before {
+  content: '\E017';
+  color: #6d8086;
+}
+.icon:not(.icon-file-directory)[data-name$=".key"]:before,
+.title[data-name$=".key"]:before {
+  content: '\E059';
+  color: #8dc149;
+}
+.icon:not(.icon-file-directory)[data-name$=".cert"]:before,
+.title[data-name$=".cert"]:before {
+  content: '\E059';
+  color: #8dc149;
+}
+.icon:not(.icon-file-directory)[data-name*="LICENSE"]:before,
+.title[data-name*="LICENSE"]:before {
+  content: '\E056';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name*="LICENCE"]:before,
+.title[data-name*="LICENCE"]:before {
+  content: '\E056';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name*="COPYING"]:before,
+.title[data-name*="COPYING"]:before {
+  content: '\E056';
+  color: #cbcb41;
+}
+.icon:not(.icon-file-directory)[data-name*="COMPILING"]:before,
+.title[data-name*="COMPILING"]:before {
+  content: '\E056';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name*="CONTRIBUTING"]:before,
+.title[data-name*="CONTRIBUTING"]:before {
+  content: '\E056';
+  color: #cc3e44;
+}
+.icon:not(.icon-file-directory)[data-name*="MAKEFILE"]:before,
+.title[data-name*="MAKEFILE"]:before {
+  content: '\E05B';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name*="Makefile"]:before,
+.title[data-name*="Makefile"]:before {
+  content: '\E05B';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name*="makefile"]:before,
+.title[data-name*="makefile"]:before {
+  content: '\E05B';
+  color: #e37933;
+}
+.icon:not(.icon-file-directory)[data-name*="QMAKEFILE"]:before,
+.title[data-name*="QMAKEFILE"]:before {
+  content: '\E05B';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name*="QMakefile"]:before,
+.title[data-name*="QMakefile"]:before {
+  content: '\E05B';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name*="qmakefile"]:before,
+.title[data-name*="qmakefile"]:before {
+  content: '\E05B';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name*="OMAKEFILE"]:before,
+.title[data-name*="OMAKEFILE"]:before {
+  content: '\E05B';
+  color: #6d8086;
+}
+.icon:not(.icon-file-directory)[data-name*="OMakefile"]:before,
+.title[data-name*="OMakefile"]:before {
+  content: '\E05B';
+  color: #6d8086;
+}
+.icon:not(.icon-file-directory)[data-name*="omakefile"]:before,
+.title[data-name*="omakefile"]:before {
+  content: '\E05B';
+  color: #6d8086;
+}
+.icon:not(.icon-file-directory)[data-name*="CMAKELISTS.TXT"]:before,
+.title[data-name*="CMAKELISTS.TXT"]:before {
+  content: '\E05B';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name*="CMAKELISTS.txt"]:before,
+.title[data-name*="CMAKELISTS.txt"]:before {
+  content: '\E05B';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name*="CMakeLists.txt"]:before,
+.title[data-name*="CMakeLists.txt"]:before {
+  content: '\E05B';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name*="cmakelists.txt"]:before,
+.title[data-name*="cmakelists.txt"]:before {
+  content: '\E05B';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name*="Procfile"]:before,
+.title[data-name*="Procfile"]:before {
+  content: '\E042';
+  color: #a074c4;
+}
+.icon:not(.icon-file-directory)[data-name*="TODO"]:before,
+.title[data-name*="TODO"]:before {
+  content: '\E08C';
+  color: #519aba;
+}
+.icon:not(.icon-file-directory)[data-name$="npm-debug.log"]:before,
+.title[data-name$="npm-debug.log"]:before {
+  content: '\E063';
+  color: #41535b;
+}
+.icon:not(.icon-file-directory)[data-name$=".DS_Store"]:before,
+.title[data-name$=".DS_Store"]:before {
+  content: '\E046';
+  color: #41535b;
+}
+@font-face {
+  font-family: 'seti';
+  src: url('./seti.eot');
+  src: url('./seti.eot?#iefix') format('eot'), url('./seti.woff') format('woff'), url('./seti.ttf') format('truetype'), url('./seti.svg#seti') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.icon-base-pseudo,
+.icon-file-binary:before,
+.icon-file-pdf:before,
+.icon-file-text:before,
+.icon-book:before,
+.icon-file-media:before,
+.icon-markdown:before,
+.title:before,
+.icon:not(.icon-file-directory)[data-name$=".bsl"]:before,
+.title[data-name$=".bsl"]:before,
+.icon:not(.icon-file-directory)[data-name$=".mdo"]:before,
+.title[data-name$=".mdo"]:before,
+.icon:not(.icon-file-directory)[data-name$=".asm"]:before,
+.title[data-name$=".asm"]:before,
+.icon:not(.icon-file-directory)[data-name$=".s"]:before,
+.title[data-name$=".s"]:before,
+.icon:not(.icon-file-directory)[data-name$=".c"]:before,
+.title[data-name$=".c"]:before,
+.icon:not(.icon-file-directory)[data-name$=".h"]:before,
+.title[data-name$=".h"]:before,
+.icon:not(.icon-file-directory)[data-name$=".m"]:before,
+.title[data-name$=".m"]:before,
+.icon:not(.icon-file-directory)[data-name$=".cs"]:before,
+.title[data-name$=".cs"]:before,
+.icon:not(.icon-file-directory)[data-name$=".cshtml"]:before,
+.title[data-name$=".cshtml"]:before,
+.icon:not(.icon-file-directory)[data-name$=".aspx"]:before,
+.title[data-name$=".aspx"]:before,
+.icon:not(.icon-file-directory)[data-name$=".ascx"]:before,
+.title[data-name$=".ascx"]:before,
+.icon:not(.icon-file-directory)[data-name$=".asax"]:before,
+.title[data-name$=".asax"]:before,
+.icon:not(.icon-file-directory)[data-name$=".master"]:before,
+.title[data-name$=".master"]:before,
+.icon:not(.icon-file-directory)[data-name$=".cc"]:before,
+.title[data-name$=".cc"]:before,
+.icon:not(.icon-file-directory)[data-name$=".cpp"]:before,
+.title[data-name$=".cpp"]:before,
+.icon:not(.icon-file-directory)[data-name$=".cxx"]:before,
+.title[data-name$=".cxx"]:before,
+.icon:not(.icon-file-directory)[data-name$=".c++"]:before,
+.title[data-name$=".c++"]:before,
+.icon:not(.icon-file-directory)[data-name$=".hh"]:before,
+.title[data-name$=".hh"]:before,
+.icon:not(.icon-file-directory)[data-name$=".hpp"]:before,
+.title[data-name$=".hpp"]:before,
+.icon:not(.icon-file-directory)[data-name$=".hxx"]:before,
+.title[data-name$=".hxx"]:before,
+.icon:not(.icon-file-directory)[data-name$=".h++"]:before,
+.title[data-name$=".h++"]:before,
+.icon:not(.icon-file-directory)[data-name$=".mm"]:before,
+.title[data-name$=".mm"]:before,
+.icon:not(.icon-file-directory)[data-name$=".clj"]:before,
+.title[data-name$=".clj"]:before,
+.icon:not(.icon-file-directory)[data-name$=".cljs"]:before,
+.title[data-name$=".cljs"]:before,
+.icon:not(.icon-file-directory)[data-name$=".cljc"]:before,
+.title[data-name$=".cljc"]:before,
+.icon:not(.icon-file-directory)[data-name$=".edn"]:before,
+.title[data-name$=".edn"]:before,
+.icon:not(.icon-file-directory)[data-name$=".cfc"]:before,
+.title[data-name$=".cfc"]:before,
+.icon:not(.icon-file-directory)[data-name$=".cfm"]:before,
+.title[data-name$=".cfm"]:before,
+.icon:not(.icon-file-directory)[data-name$=".coffee"]:before,
+.title[data-name$=".coffee"]:before,
+.icon:not(.icon-file-directory)[data-name$=".litcoffee"]:before,
+.title[data-name$=".litcoffee"]:before,
+.icon:not(.icon-file-directory)[data-name$=".config"]:before,
+.title[data-name$=".config"]:before,
+.icon:not(.icon-file-directory)[data-name$=".cfg"]:before,
+.title[data-name$=".cfg"]:before,
+.icon:not(.icon-file-directory)[data-name$=".conf"]:before,
+.title[data-name$=".conf"]:before,
+.icon:not(.icon-file-directory)[data-name$=".cr"]:before,
+.title[data-name$=".cr"]:before,
+.icon:not(.icon-file-directory)[data-name$=".ecr"]:before,
+.title[data-name$=".ecr"]:before,
+.icon:not(.icon-file-directory)[data-name$=".slang"]:before,
+.title[data-name$=".slang"]:before,
+.icon:not(.icon-file-directory)[data-name$=".cson"]:before,
+.title[data-name$=".cson"]:before,
+.icon:not(.icon-file-directory)[data-name$=".css"]:before,
+.title[data-name$=".css"]:before,
+.icon:not(.icon-file-directory)[data-name$=".css.map"]:before,
+.title[data-name$=".css.map"]:before,
+.icon:not(.icon-file-directory)[data-name$=".sss"]:before,
+.title[data-name$=".sss"]:before,
+.icon:not(.icon-file-directory)[data-name$=".csv"]:before,
+.title[data-name$=".csv"]:before,
+.icon:not(.icon-file-directory)[data-name$=".xls"]:before,
+.title[data-name$=".xls"]:before,
+.icon:not(.icon-file-directory)[data-name$=".xlsx"]:before,
+.title[data-name$=".xlsx"]:before,
+.icon:not(.icon-file-directory)[data-name$=".cu"]:before,
+.title[data-name$=".cu"]:before,
+.icon:not(.icon-file-directory)[data-name$=".cuh"]:before,
+.title[data-name$=".cuh"]:before,
+.icon:not(.icon-file-directory)[data-name$=".hu"]:before,
+.title[data-name$=".hu"]:before,
+.icon:not(.icon-file-directory)[data-name$=".cake"]:before,
+.title[data-name$=".cake"]:before,
+.icon:not(.icon-file-directory)[data-name$=".ctp"]:before,
+.title[data-name$=".ctp"]:before,
+.icon:not(.icon-file-directory)[data-name$=".d"]:before,
+.title[data-name$=".d"]:before,
+.icon:not(.icon-file-directory)[data-name$=".doc"]:before,
+.title[data-name$=".doc"]:before,
+.icon:not(.icon-file-directory)[data-name$=".docx"]:before,
+.title[data-name$=".docx"]:before,
+.icon:not(.icon-file-directory)[data-name$=".ejs"]:before,
+.title[data-name$=".ejs"]:before,
+.icon:not(.icon-file-directory)[data-name$=".ex"]:before,
+.title[data-name$=".ex"]:before,
+.icon:not(.icon-file-directory)[data-name$=".exs"]:before,
+.title[data-name$=".exs"]:before,
+.icon:not(.icon-file-directory)[data-name*="mix"]:before,
+.title[data-name*="mix"]:before,
+.icon:not(.icon-file-directory)[data-name$=".elm"]:before,
+.title[data-name$=".elm"]:before,
+.icon:not(.icon-file-directory)[data-name$=".ico"]:before,
+.title[data-name$=".ico"]:before,
+.icon:not(.icon-file-directory)[data-name$=".fs"]:before,
+.title[data-name$=".fs"]:before,
+.icon:not(.icon-file-directory)[data-name$=".fsx"]:before,
+.title[data-name$=".fsx"]:before,
+.icon:not(.icon-file-directory)[data-name$=".gitignore"]:before,
+.title[data-name$=".gitignore"]:before,
+.icon:not(.icon-file-directory)[data-name$=".gitconfig"]:before,
+.title[data-name$=".gitconfig"]:before,
+.icon:not(.icon-file-directory)[data-name$=".gitkeep"]:before,
+.title[data-name$=".gitkeep"]:before,
+.icon:not(.icon-file-directory)[data-name$=".gitattributes"]:before,
+.title[data-name$=".gitattributes"]:before,
+.icon:not(.icon-file-directory)[data-name$=".gitmodules"]:before,
+.title[data-name$=".gitmodules"]:before,
+.icon:not(.icon-file-directory)[data-name$=".go"]:before,
+.title[data-name$=".go"]:before,
+.icon:not(.icon-file-directory)[data-name$=".slide"]:before,
+.title[data-name$=".slide"]:before,
+.icon:not(.icon-file-directory)[data-name$=".article"]:before,
+.title[data-name$=".article"]:before,
+.icon:not(.icon-file-directory)[data-name$=".gradle"]:before,
+.title[data-name$=".gradle"]:before,
+.icon:not(.icon-file-directory)[data-name$=".groovy"]:before,
+.title[data-name$=".groovy"]:before,
+.icon:not(.icon-file-directory)[data-name$=".gsp"]:before,
+.title[data-name$=".gsp"]:before,
+.icon:not(.icon-file-directory)[data-name$=".gql"]:before,
+.title[data-name$=".gql"]:before,
+.icon:not(.icon-file-directory)[data-name$=".graphql"]:before,
+.title[data-name$=".graphql"]:before,
+.icon:not(.icon-file-directory)[data-name$=".haml"]:before,
+.title[data-name$=".haml"]:before,
+.icon:not(.icon-file-directory)[data-name$=".handlebars"]:before,
+.title[data-name$=".handlebars"]:before,
+.icon:not(.icon-file-directory)[data-name$=".hbs"]:before,
+.title[data-name$=".hbs"]:before,
+.icon:not(.icon-file-directory)[data-name$=".hjs"]:before,
+.title[data-name$=".hjs"]:before,
+.icon:not(.icon-file-directory)[data-name$=".hs"]:before,
+.title[data-name$=".hs"]:before,
+.icon:not(.icon-file-directory)[data-name$=".lhs"]:before,
+.title[data-name$=".lhs"]:before,
+.icon:not(.icon-file-directory)[data-name$=".hx"]:before,
+.title[data-name$=".hx"]:before,
+.icon:not(.icon-file-directory)[data-name$=".hxs"]:before,
+.title[data-name$=".hxs"]:before,
+.icon:not(.icon-file-directory)[data-name$=".hxp"]:before,
+.title[data-name$=".hxp"]:before,
+.icon:not(.icon-file-directory)[data-name$=".hxml"]:before,
+.title[data-name$=".hxml"]:before,
+.icon:not(.icon-file-directory)[data-name$=".html"]:before,
+.title[data-name$=".html"]:before,
+.icon:not(.icon-file-directory)[data-name$=".jade"]:before,
+.title[data-name$=".jade"]:before,
+.icon:not(.icon-file-directory)[data-name$=".java"]:before,
+.title[data-name$=".java"]:before,
+.icon:not(.icon-file-directory)[data-name$=".class"]:before,
+.title[data-name$=".class"]:before,
+.icon:not(.icon-file-directory)[data-name$=".classpath"]:before,
+.title[data-name$=".classpath"]:before,
+.icon:not(.icon-file-directory)[data-name$=".properties"]:before,
+.title[data-name$=".properties"]:before,
+.icon:not(.icon-file-directory)[data-name$=".js"]:before,
+.title[data-name$=".js"]:before,
+.icon:not(.icon-file-directory)[data-name$=".js.map"]:before,
+.title[data-name$=".js.map"]:before,
+.icon:not(.icon-file-directory)[data-name$=".spec.js"]:before,
+.title[data-name$=".spec.js"]:before,
+.icon:not(.icon-file-directory)[data-name$=".test.js"]:before,
+.title[data-name$=".test.js"]:before,
+.icon:not(.icon-file-directory)[data-name$=".es"]:before,
+.title[data-name$=".es"]:before,
+.icon:not(.icon-file-directory)[data-name$=".es5"]:before,
+.title[data-name$=".es5"]:before,
+.icon:not(.icon-file-directory)[data-name$=".es6"]:before,
+.title[data-name$=".es6"]:before,
+.icon:not(.icon-file-directory)[data-name$=".es7"]:before,
+.title[data-name$=".es7"]:before,
+.icon:not(.icon-file-directory)[data-name$=".jinja"]:before,
+.title[data-name$=".jinja"]:before,
+.icon:not(.icon-file-directory)[data-name$=".jinja2"]:before,
+.title[data-name$=".jinja2"]:before,
+.icon:not(.icon-file-directory)[data-name$=".json"]:before,
+.title[data-name$=".json"]:before,
+.icon:not(.icon-file-directory)[data-name$=".jl"]:before,
+.title[data-name$=".jl"]:before,
+.icon:not(.icon-file-directory)[data-name$="karma.conf.js"]:before,
+.title[data-name$="karma.conf.js"]:before,
+.icon:not(.icon-file-directory)[data-name$="karma.conf.coffee"]:before,
+.title[data-name$="karma.conf.coffee"]:before,
+.icon:not(.icon-file-directory)[data-name$=".kt"]:before,
+.title[data-name$=".kt"]:before,
+.icon:not(.icon-file-directory)[data-name$=".kts"]:before,
+.title[data-name$=".kts"]:before,
+.icon:not(.icon-file-directory)[data-name$=".dart"]:before,
+.title[data-name$=".dart"]:before,
+.icon:not(.icon-file-directory)[data-name$=".less"]:before,
+.title[data-name$=".less"]:before,
+.icon:not(.icon-file-directory)[data-name$=".liquid"]:before,
+.title[data-name$=".liquid"]:before,
+.icon:not(.icon-file-directory)[data-name$=".ls"]:before,
+.title[data-name$=".ls"]:before,
+.icon:not(.icon-file-directory)[data-name$=".lua"]:before,
+.title[data-name$=".lua"]:before,
+.icon:not(.icon-file-directory)[data-name$=".markdown"]:before,
+.title[data-name$=".markdown"]:before,
+.icon:not(.icon-file-directory)[data-name$=".md"]:before,
+.title[data-name$=".md"]:before,
+.icon:not(.icon-file-directory)[data-name$=".argdown"]:before,
+.title[data-name$=".argdown"]:before,
+.icon:not(.icon-file-directory)[data-name$=".ad"]:before,
+.title[data-name$=".ad"]:before,
+.icon:not(.icon-file-directory)[data-name$="README.md"]:before,
+.title[data-name$="README.md"]:before,
+.icon:not(.icon-file-directory)[data-name$="CHANGELOG.md"]:before,
+.title[data-name$="CHANGELOG.md"]:before,
+.icon:not(.icon-file-directory)[data-name$="CHANGELOG"]:before,
+.title[data-name$="CHANGELOG"]:before,
+.icon:not(.icon-file-directory)[data-name$="CHANGES.md"]:before,
+.title[data-name$="CHANGES.md"]:before,
+.icon:not(.icon-file-directory)[data-name$="VERSION.md"]:before,
+.title[data-name$="VERSION.md"]:before,
+.icon:not(.icon-file-directory)[data-name$="VERSION"]:before,
+.title[data-name$="VERSION"]:before,
+.icon:not(.icon-file-directory)[data-name$="mvnw"]:before,
+.title[data-name$="mvnw"]:before,
+.icon:not(.icon-file-directory)[data-name$=".mustache"]:before,
+.title[data-name$=".mustache"]:before,
+.icon:not(.icon-file-directory)[data-name$=".stache"]:before,
+.title[data-name$=".stache"]:before,
+.icon:not(.icon-file-directory)[data-name$=".nim"]:before,
+.title[data-name$=".nim"]:before,
+.icon:not(.icon-file-directory)[data-name$=".nims"]:before,
+.title[data-name$=".nims"]:before,
+.icon:not(.icon-file-directory)[data-name$=".njk"]:before,
+.title[data-name$=".njk"]:before,
+.icon:not(.icon-file-directory)[data-name$=".nunjucks"]:before,
+.title[data-name$=".nunjucks"]:before,
+.icon:not(.icon-file-directory)[data-name$=".nunjs"]:before,
+.title[data-name$=".nunjs"]:before,
+.icon:not(.icon-file-directory)[data-name$=".nunj"]:before,
+.title[data-name$=".nunj"]:before,
+.icon:not(.icon-file-directory)[data-name$=".njs"]:before,
+.title[data-name$=".njs"]:before,
+.icon:not(.icon-file-directory)[data-name$=".nj"]:before,
+.title[data-name$=".nj"]:before,
+.icon:not(.icon-file-directory)[data-name$=".npm-debug.log"]:before,
+.title[data-name$=".npm-debug.log"]:before,
+.icon:not(.icon-file-directory)[data-name$=".npmignore"]:before,
+.title[data-name$=".npmignore"]:before,
+.icon:not(.icon-file-directory)[data-name$=".npmrc"]:before,
+.title[data-name$=".npmrc"]:before,
+.icon:not(.icon-file-directory)[data-name$=".ml"]:before,
+.title[data-name$=".ml"]:before,
+.icon:not(.icon-file-directory)[data-name$=".mli"]:before,
+.title[data-name$=".mli"]:before,
+.icon:not(.icon-file-directory)[data-name$=".cmx"]:before,
+.title[data-name$=".cmx"]:before,
+.icon:not(.icon-file-directory)[data-name$=".cmxa"]:before,
+.title[data-name$=".cmxa"]:before,
+.icon:not(.icon-file-directory)[data-name$=".odata"]:before,
+.title[data-name$=".odata"]:before,
+.icon:not(.icon-file-directory)[data-name$=".pl"]:before,
+.title[data-name$=".pl"]:before,
+.icon:not(.icon-file-directory)[data-name$=".php"]:before,
+.title[data-name$=".php"]:before,
+.icon:not(.icon-file-directory)[data-name$=".php.inc"]:before,
+.title[data-name$=".php.inc"]:before,
+.icon:not(.icon-file-directory)[data-name$=".pddl"]:before,
+.title[data-name$=".pddl"]:before,
+.icon:not(.icon-file-directory)[data-name$=".plan"]:before,
+.title[data-name$=".plan"]:before,
+.icon:not(.icon-file-directory)[data-name$=".happenings"]:before,
+.title[data-name$=".happenings"]:before,
+.icon:not(.icon-file-directory)[data-name$=".ps1"]:before,
+.title[data-name$=".ps1"]:before,
+.icon:not(.icon-file-directory)[data-name$=".psd1"]:before,
+.title[data-name$=".psd1"]:before,
+.icon:not(.icon-file-directory)[data-name$=".psm1"]:before,
+.title[data-name$=".psm1"]:before,
+.icon:not(.icon-file-directory)[data-name$=".pug"]:before,
+.title[data-name$=".pug"]:before,
+.icon:not(.icon-file-directory)[data-name$=".pp"]:before,
+.title[data-name$=".pp"]:before,
+.icon:not(.icon-file-directory)[data-name$=".epp"]:before,
+.title[data-name$=".epp"]:before,
+.icon:not(.icon-file-directory)[data-name$=".py"]:before,
+.title[data-name$=".py"]:before,
+.icon:not(.icon-file-directory)[data-name$=".jsx"]:before,
+.title[data-name$=".jsx"]:before,
+.icon:not(.icon-file-directory)[data-name$=".spec.jsx"]:before,
+.title[data-name$=".spec.jsx"]:before,
+.icon:not(.icon-file-directory)[data-name$=".test.jsx"]:before,
+.title[data-name$=".test.jsx"]:before,
+.icon:not(.icon-file-directory)[data-name$=".cjsx"]:before,
+.title[data-name$=".cjsx"]:before,
+.icon:not(.icon-file-directory)[data-name$=".spec.tsx"]:before,
+.title[data-name$=".spec.tsx"]:before,
+.icon:not(.icon-file-directory)[data-name$=".test.tsx"]:before,
+.title[data-name$=".test.tsx"]:before,
+.icon:not(.icon-file-directory)[data-name$=".re"]:before,
+.title[data-name$=".re"]:before,
+.icon:not(.icon-file-directory)[data-name$=".R"]:before,
+.title[data-name$=".R"]:before,
+.icon:not(.icon-file-directory)[data-name$=".rmd"]:before,
+.title[data-name$=".rmd"]:before,
+.icon:not(.icon-file-directory)[data-name$=".rb"]:before,
+.title[data-name$=".rb"]:before,
+.icon:not(.icon-file-directory)[data-name$=".erb"]:before,
+.title[data-name$=".erb"]:before,
+.icon:not(.icon-file-directory)[data-name$=".erb.html"]:before,
+.title[data-name$=".erb.html"]:before,
+.icon:not(.icon-file-directory)[data-name$=".html.erb"]:before,
+.title[data-name$=".html.erb"]:before,
+.icon:not(.icon-file-directory)[data-name$=".rs"]:before,
+.title[data-name$=".rs"]:before,
+.icon:not(.icon-file-directory)[data-name$=".sass"]:before,
+.title[data-name$=".sass"]:before,
+.icon:not(.icon-file-directory)[data-name$=".scss"]:before,
+.title[data-name$=".scss"]:before,
+.icon:not(.icon-file-directory)[data-name$=".springBeans"]:before,
+.title[data-name$=".springBeans"]:before,
+.icon:not(.icon-file-directory)[data-name$=".slim"]:before,
+.title[data-name$=".slim"]:before,
+.icon:not(.icon-file-directory)[data-name$=".smarty.tpl"]:before,
+.title[data-name$=".smarty.tpl"]:before,
+.icon:not(.icon-file-directory)[data-name$=".tpl"]:before,
+.title[data-name$=".tpl"]:before,
+.icon:not(.icon-file-directory)[data-name$=".sbt"]:before,
+.title[data-name$=".sbt"]:before,
+.icon:not(.icon-file-directory)[data-name$=".scala"]:before,
+.title[data-name$=".scala"]:before,
+.icon:not(.icon-file-directory)[data-name$=".sol"]:before,
+.title[data-name$=".sol"]:before,
+.icon:not(.icon-file-directory)[data-name$=".styl"]:before,
+.title[data-name$=".styl"]:before,
+.icon:not(.icon-file-directory)[data-name$=".swift"]:before,
+.title[data-name$=".swift"]:before,
+.icon:not(.icon-file-directory)[data-name$=".sql"]:before,
+.title[data-name$=".sql"]:before,
+.icon:not(.icon-file-directory)[data-name$=".tf"]:before,
+.title[data-name$=".tf"]:before,
+.icon:not(.icon-file-directory)[data-name$=".tf.json"]:before,
+.title[data-name$=".tf.json"]:before,
+.icon:not(.icon-file-directory)[data-name$=".tfvars"]:before,
+.title[data-name$=".tfvars"]:before,
+.icon:not(.icon-file-directory)[data-name$=".tex"]:before,
+.title[data-name$=".tex"]:before,
+.icon:not(.icon-file-directory)[data-name$=".sty"]:before,
+.title[data-name$=".sty"]:before,
+.icon:not(.icon-file-directory)[data-name$=".dtx"]:before,
+.title[data-name$=".dtx"]:before,
+.icon:not(.icon-file-directory)[data-name$=".ins"]:before,
+.title[data-name$=".ins"]:before,
+.icon:not(.icon-file-directory)[data-name$=".txt"]:before,
+.title[data-name$=".txt"]:before,
+.icon:not(.icon-file-directory)[data-name$=".toml"]:before,
+.title[data-name$=".toml"]:before,
+.icon:not(.icon-file-directory)[data-name$=".twig"]:before,
+.title[data-name$=".twig"]:before,
+.icon:not(.icon-file-directory)[data-name$=".ts"]:before,
+.title[data-name$=".ts"]:before,
+.icon:not(.icon-file-directory)[data-name$=".tsx"]:before,
+.title[data-name$=".tsx"]:before,
+.icon:not(.icon-file-directory)[data-name$=".spec.ts"]:before,
+.title[data-name$=".spec.ts"]:before,
+.icon:not(.icon-file-directory)[data-name$=".test.ts"]:before,
+.title[data-name$=".test.ts"]:before,
+.icon:not(.icon-file-directory)[data-name$="tsconfig.json"]:before,
+.title[data-name$="tsconfig.json"]:before,
+.icon:not(.icon-file-directory)[data-name$=".vala"]:before,
+.title[data-name$=".vala"]:before,
+.icon:not(.icon-file-directory)[data-name$=".vapi"]:before,
+.title[data-name$=".vapi"]:before,
+.icon:not(.icon-file-directory)[data-name$=".vue"]:before,
+.title[data-name$=".vue"]:before,
+.icon:not(.icon-file-directory)[data-name$=".wasm"]:before,
+.title[data-name$=".wasm"]:before,
+.icon:not(.icon-file-directory)[data-name$=".wat"]:before,
+.title[data-name$=".wat"]:before,
+.icon:not(.icon-file-directory)[data-name$=".xml"]:before,
+.title[data-name$=".xml"]:before,
+.icon:not(.icon-file-directory)[data-name$=".yml"]:before,
+.title[data-name$=".yml"]:before,
+.icon:not(.icon-file-directory)[data-name$=".yaml"]:before,
+.title[data-name$=".yaml"]:before,
+.icon:not(.icon-file-directory)[data-name$="swagger.json"]:before,
+.title[data-name$="swagger.json"]:before,
+.icon:not(.icon-file-directory)[data-name$="swagger.yml"]:before,
+.title[data-name$="swagger.yml"]:before,
+.icon:not(.icon-file-directory)[data-name$="swagger.yaml"]:before,
+.title[data-name$="swagger.yaml"]:before,
+.icon:not(.icon-file-directory)[data-name$=".pro"]:before,
+.title[data-name$=".pro"]:before,
+.icon:not(.icon-file-directory)[data-name$=".jar"]:before,
+.title[data-name$=".jar"]:before,
+.icon:not(.icon-file-directory)[data-name$=".zip"]:before,
+.title[data-name$=".zip"]:before,
+.icon:not(.icon-file-directory)[data-name$=".wgt"]:before,
+.title[data-name$=".wgt"]:before,
+.icon:not(.icon-file-directory)[data-name$=".ai"]:before,
+.title[data-name$=".ai"]:before,
+.icon:not(.icon-file-directory)[data-name$=".psd"]:before,
+.title[data-name$=".psd"]:before,
+.icon:not(.icon-file-directory)[data-name$=".pdf"]:before,
+.title[data-name$=".pdf"]:before,
+.icon:not(.icon-file-directory)[data-name$=".eot"]:before,
+.title[data-name$=".eot"]:before,
+.icon:not(.icon-file-directory)[data-name$=".ttf"]:before,
+.title[data-name$=".ttf"]:before,
+.icon:not(.icon-file-directory)[data-name$=".woff"]:before,
+.title[data-name$=".woff"]:before,
+.icon:not(.icon-file-directory)[data-name$=".woff2"]:before,
+.title[data-name$=".woff2"]:before,
+.icon:not(.icon-file-directory)[data-name$=".gif"]:before,
+.title[data-name$=".gif"]:before,
+.icon:not(.icon-file-directory)[data-name$=".jpg"]:before,
+.title[data-name$=".jpg"]:before,
+.icon:not(.icon-file-directory)[data-name$=".jpeg"]:before,
+.title[data-name$=".jpeg"]:before,
+.icon:not(.icon-file-directory)[data-name$=".png"]:before,
+.title[data-name$=".png"]:before,
+.icon:not(.icon-file-directory)[data-name$=".pxm"]:before,
+.title[data-name$=".pxm"]:before,
+.icon:not(.icon-file-directory)[data-name$=".svg"]:before,
+.title[data-name$=".svg"]:before,
+.icon:not(.icon-file-directory)[data-name$=".svgx"]:before,
+.title[data-name$=".svgx"]:before,
+.icon:not(.icon-file-directory)[data-name$=".tiff"]:before,
+.title[data-name$=".tiff"]:before,
+.icon:not(.icon-file-directory)[data-name$=".webp"]:before,
+.title[data-name$=".webp"]:before,
+.icon:not(.icon-file-directory)[data-name$=".sublime-project"]:before,
+.title[data-name$=".sublime-project"]:before,
+.icon:not(.icon-file-directory)[data-name$=".sublime-workspace"]:before,
+.title[data-name$=".sublime-workspace"]:before,
+.icon:not(.icon-file-directory)[data-name$=".code-search"]:before,
+.title[data-name$=".code-search"]:before,
+.icon:not(.icon-file-directory)[data-name$=".component"]:before,
+.title[data-name$=".component"]:before,
+.icon:not(.icon-file-directory)[data-name$=".cls"]:before,
+.title[data-name$=".cls"]:before,
+.icon:not(.icon-file-directory)[data-name$=".sh"]:before,
+.title[data-name$=".sh"]:before,
+.icon:not(.icon-file-directory)[data-name$=".zsh"]:before,
+.title[data-name$=".zsh"]:before,
+.icon:not(.icon-file-directory)[data-name$=".fish"]:before,
+.title[data-name$=".fish"]:before,
+.icon:not(.icon-file-directory)[data-name$=".zshrc"]:before,
+.title[data-name$=".zshrc"]:before,
+.icon:not(.icon-file-directory)[data-name$=".bashrc"]:before,
+.title[data-name$=".bashrc"]:before,
+.icon:not(.icon-file-directory)[data-name$=".mov"]:before,
+.title[data-name$=".mov"]:before,
+.icon:not(.icon-file-directory)[data-name$=".ogv"]:before,
+.title[data-name$=".ogv"]:before,
+.icon:not(.icon-file-directory)[data-name$=".webm"]:before,
+.title[data-name$=".webm"]:before,
+.icon:not(.icon-file-directory)[data-name$=".avi"]:before,
+.title[data-name$=".avi"]:before,
+.icon:not(.icon-file-directory)[data-name$=".mpg"]:before,
+.title[data-name$=".mpg"]:before,
+.icon:not(.icon-file-directory)[data-name$=".mp4"]:before,
+.title[data-name$=".mp4"]:before,
+.icon:not(.icon-file-directory)[data-name$=".mp3"]:before,
+.title[data-name$=".mp3"]:before,
+.icon:not(.icon-file-directory)[data-name$=".ogg"]:before,
+.title[data-name$=".ogg"]:before,
+.icon:not(.icon-file-directory)[data-name$=".wav"]:before,
+.title[data-name$=".wav"]:before,
+.icon:not(.icon-file-directory)[data-name$=".flac"]:before,
+.title[data-name$=".flac"]:before,
+.icon:not(.icon-file-directory)[data-name$=".3ds"]:before,
+.title[data-name$=".3ds"]:before,
+.icon:not(.icon-file-directory)[data-name$=".3dm"]:before,
+.title[data-name$=".3dm"]:before,
+.icon:not(.icon-file-directory)[data-name$=".stl"]:before,
+.title[data-name$=".stl"]:before,
+.icon:not(.icon-file-directory)[data-name$=".obj"]:before,
+.title[data-name$=".obj"]:before,
+.icon:not(.icon-file-directory)[data-name$=".dae"]:before,
+.title[data-name$=".dae"]:before,
+.icon:not(.icon-file-directory)[data-name$=".bat"]:before,
+.title[data-name$=".bat"]:before,
+.icon:not(.icon-file-directory)[data-name$=".cmd"]:before,
+.title[data-name$=".cmd"]:before,
+.icon:not(.icon-file-directory)[data-name$="mime.types"]:before,
+.title[data-name$="mime.types"]:before,
+.icon:not(.icon-file-directory)[data-name$="Jenkinsfile"]:before,
+.title[data-name$="Jenkinsfile"]:before,
+.icon:not(.icon-file-directory)[data-name$=".babelrc"]:before,
+.title[data-name$=".babelrc"]:before,
+.icon:not(.icon-file-directory)[data-name$=".babelrc.js"]:before,
+.title[data-name$=".babelrc.js"]:before,
+.icon:not(.icon-file-directory)[data-name$=".babelrc.cjs"]:before,
+.title[data-name$=".babelrc.cjs"]:before,
+.icon:not(.icon-file-directory)[data-name$="babel.config.js"]:before,
+.title[data-name$="babel.config.js"]:before,
+.icon:not(.icon-file-directory)[data-name$="babel.config.json"]:before,
+.title[data-name$="babel.config.json"]:before,
+.icon:not(.icon-file-directory)[data-name$="babel.config.cjs"]:before,
+.title[data-name$="babel.config.cjs"]:before,
+.icon:not(.icon-file-directory)[data-name$="bower.json"]:before,
+.title[data-name$="bower.json"]:before,
+.icon:not(.icon-file-directory)[data-name$="Bower.json"]:before,
+.title[data-name$="Bower.json"]:before,
+.icon:not(.icon-file-directory)[data-name$=".bowerrc"]:before,
+.title[data-name$=".bowerrc"]:before,
+.icon:not(.icon-file-directory)[data-name*="dockerfile"]:before,
+.title[data-name*="dockerfile"]:before,
+.icon:not(.icon-file-directory)[data-name*="Dockerfile"]:before,
+.title[data-name*="Dockerfile"]:before,
+.icon:not(.icon-file-directory)[data-name*="DOCKERFILE"]:before,
+.title[data-name*="DOCKERFILE"]:before,
+.icon:not(.icon-file-directory)[data-name*=".dockerignore"]:before,
+.title[data-name*=".dockerignore"]:before,
+.icon:not(.icon-file-directory)[data-name*="docker-healthcheck"]:before,
+.title[data-name*="docker-healthcheck"]:before,
+.icon:not(.icon-file-directory)[data-name*="docker-compose.yml"]:before,
+.title[data-name*="docker-compose.yml"]:before,
+.icon:not(.icon-file-directory)[data-name*="docker-compose.yaml"]:before,
+.title[data-name*="docker-compose.yaml"]:before,
+.icon:not(.icon-file-directory)[data-name*="docker-compose.override.yml"]:before,
+.title[data-name*="docker-compose.override.yml"]:before,
+.icon:not(.icon-file-directory)[data-name*="docker-compose.override.yaml"]:before,
+.title[data-name*="docker-compose.override.yaml"]:before,
+.icon:not(.icon-file-directory)[data-name$=".codeclimate.yml"]:before,
+.title[data-name$=".codeclimate.yml"]:before,
+.icon:not(.icon-file-directory)[data-name$=".eslintrc"]:before,
+.title[data-name$=".eslintrc"]:before,
+.icon:not(.icon-file-directory)[data-name$=".eslintrc.js"]:before,
+.title[data-name$=".eslintrc.js"]:before,
+.icon:not(.icon-file-directory)[data-name$=".eslintrc.yaml"]:before,
+.title[data-name$=".eslintrc.yaml"]:before,
+.icon:not(.icon-file-directory)[data-name$=".eslintrc.yml"]:before,
+.title[data-name$=".eslintrc.yml"]:before,
+.icon:not(.icon-file-directory)[data-name$=".eslintrc.json"]:before,
+.title[data-name$=".eslintrc.json"]:before,
+.icon:not(.icon-file-directory)[data-name$=".eslintignore"]:before,
+.title[data-name$=".eslintignore"]:before,
+.icon:not(.icon-file-directory)[data-name$=".firebaserc"]:before,
+.title[data-name$=".firebaserc"]:before,
+.icon:not(.icon-file-directory)[data-name$="firebase.json"]:before,
+.title[data-name$="firebase.json"]:before,
+.icon:not(.icon-file-directory)[data-name$="geckodriver"]:before,
+.title[data-name$="geckodriver"]:before,
+.icon:not(.icon-file-directory)[data-name$="Gruntfile.js"]:before,
+.title[data-name$="Gruntfile.js"]:before,
+.icon:not(.icon-file-directory)[data-name$="gruntfile.babel.js"]:before,
+.title[data-name$="gruntfile.babel.js"]:before,
+.icon:not(.icon-file-directory)[data-name$="Gruntfile.babel.js"]:before,
+.title[data-name$="Gruntfile.babel.js"]:before,
+.icon:not(.icon-file-directory)[data-name$="gruntfile.js"]:before,
+.title[data-name$="gruntfile.js"]:before,
+.icon:not(.icon-file-directory)[data-name$="Gruntfile.coffee"]:before,
+.title[data-name$="Gruntfile.coffee"]:before,
+.icon:not(.icon-file-directory)[data-name$="gruntfile.coffee"]:before,
+.title[data-name$="gruntfile.coffee"]:before,
+.icon:not(.icon-file-directory)[data-name*="GULPFILE"]:before,
+.title[data-name*="GULPFILE"]:before,
+.icon:not(.icon-file-directory)[data-name*="Gulpfile"]:before,
+.title[data-name*="Gulpfile"]:before,
+.icon:not(.icon-file-directory)[data-name*="gulpfile"]:before,
+.title[data-name*="gulpfile"]:before,
+.icon:not(.icon-file-directory)[data-name*="gulpfile.js"]:before,
+.title[data-name*="gulpfile.js"]:before,
+.icon:not(.icon-file-directory)[data-name$="ionic.config.json"]:before,
+.title[data-name$="ionic.config.json"]:before,
+.icon:not(.icon-file-directory)[data-name$="Ionic.config.json"]:before,
+.title[data-name$="Ionic.config.json"]:before,
+.icon:not(.icon-file-directory)[data-name$="ionic.project"]:before,
+.title[data-name$="ionic.project"]:before,
+.icon:not(.icon-file-directory)[data-name$="Ionic.project"]:before,
+.title[data-name$="Ionic.project"]:before,
+.icon:not(.icon-file-directory)[data-name$=".jshintrc"]:before,
+.title[data-name$=".jshintrc"]:before,
+.icon:not(.icon-file-directory)[data-name$=".jscsrc"]:before,
+.title[data-name$=".jscsrc"]:before,
+.icon:not(.icon-file-directory)[data-name$="platformio.ini"]:before,
+.title[data-name$="platformio.ini"]:before,
+.icon:not(.icon-file-directory)[data-name$="rollup.config.js"]:before,
+.title[data-name$="rollup.config.js"]:before,
+.icon:not(.icon-file-directory)[data-name$="sass-lint.yml"]:before,
+.title[data-name$="sass-lint.yml"]:before,
+.icon:not(.icon-file-directory)[data-name$=".stylelintrc"]:before,
+.title[data-name$=".stylelintrc"]:before,
+.icon:not(.icon-file-directory)[data-name$=".stylelintrc.json"]:before,
+.title[data-name$=".stylelintrc.json"]:before,
+.icon:not(.icon-file-directory)[data-name$=".stylelintrc.yaml"]:before,
+.title[data-name$=".stylelintrc.yaml"]:before,
+.icon:not(.icon-file-directory)[data-name$=".stylelintrc.yml"]:before,
+.title[data-name$=".stylelintrc.yml"]:before,
+.icon:not(.icon-file-directory)[data-name$=".stylelintrc.js"]:before,
+.title[data-name$=".stylelintrc.js"]:before,
+.icon:not(.icon-file-directory)[data-name$=".stylelintignore"]:before,
+.title[data-name$=".stylelintignore"]:before,
+.icon:not(.icon-file-directory)[data-name$="stylelint.config.js"]:before,
+.title[data-name$="stylelint.config.js"]:before,
+.icon:not(.icon-file-directory)[data-name$="yarn.clean"]:before,
+.title[data-name$="yarn.clean"]:before,
+.icon:not(.icon-file-directory)[data-name$="yarn.lock"]:before,
+.title[data-name$="yarn.lock"]:before,
+.icon:not(.icon-file-directory)[data-name$="webpack.config.js"]:before,
+.title[data-name$="webpack.config.js"]:before,
+.icon:not(.icon-file-directory)[data-name$="webpack.config.build.js"]:before,
+.title[data-name$="webpack.config.build.js"]:before,
+.icon:not(.icon-file-directory)[data-name$="webpack.common.js"]:before,
+.title[data-name$="webpack.common.js"]:before,
+.icon:not(.icon-file-directory)[data-name$="webpack.dev.js"]:before,
+.title[data-name$="webpack.dev.js"]:before,
+.icon:not(.icon-file-directory)[data-name$="webpack.prod.js"]:before,
+.title[data-name$="webpack.prod.js"]:before,
+.icon:not(.icon-file-directory)[data-name$=".direnv"]:before,
+.title[data-name$=".direnv"]:before,
+.icon:not(.icon-file-directory)[data-name$=".env"]:before,
+.title[data-name$=".env"]:before,
+.icon:not(.icon-file-directory)[data-name$=".static"]:before,
+.title[data-name$=".static"]:before,
+.icon:not(.icon-file-directory)[data-name$=".editorconfig"]:before,
+.title[data-name$=".editorconfig"]:before,
+.icon:not(.icon-file-directory)[data-name$=".slugignore"]:before,
+.title[data-name$=".slugignore"]:before,
+.icon:not(.icon-file-directory)[data-name$=".tmp"]:before,
+.title[data-name$=".tmp"]:before,
+.icon:not(.icon-file-directory)[data-name$=".htaccess"]:before,
+.title[data-name$=".htaccess"]:before,
+.icon:not(.icon-file-directory)[data-name$=".key"]:before,
+.title[data-name$=".key"]:before,
+.icon:not(.icon-file-directory)[data-name$=".cert"]:before,
+.title[data-name$=".cert"]:before,
+.icon:not(.icon-file-directory)[data-name*="LICENSE"]:before,
+.title[data-name*="LICENSE"]:before,
+.icon:not(.icon-file-directory)[data-name*="LICENCE"]:before,
+.title[data-name*="LICENCE"]:before,
+.icon:not(.icon-file-directory)[data-name*="COPYING"]:before,
+.title[data-name*="COPYING"]:before,
+.icon:not(.icon-file-directory)[data-name*="COMPILING"]:before,
+.title[data-name*="COMPILING"]:before,
+.icon:not(.icon-file-directory)[data-name*="CONTRIBUTING"]:before,
+.title[data-name*="CONTRIBUTING"]:before,
+.icon:not(.icon-file-directory)[data-name*="MAKEFILE"]:before,
+.title[data-name*="MAKEFILE"]:before,
+.icon:not(.icon-file-directory)[data-name*="Makefile"]:before,
+.title[data-name*="Makefile"]:before,
+.icon:not(.icon-file-directory)[data-name*="makefile"]:before,
+.title[data-name*="makefile"]:before,
+.icon:not(.icon-file-directory)[data-name*="QMAKEFILE"]:before,
+.title[data-name*="QMAKEFILE"]:before,
+.icon:not(.icon-file-directory)[data-name*="QMakefile"]:before,
+.title[data-name*="QMakefile"]:before,
+.icon:not(.icon-file-directory)[data-name*="qmakefile"]:before,
+.title[data-name*="qmakefile"]:before,
+.icon:not(.icon-file-directory)[data-name*="OMAKEFILE"]:before,
+.title[data-name*="OMAKEFILE"]:before,
+.icon:not(.icon-file-directory)[data-name*="OMakefile"]:before,
+.title[data-name*="OMakefile"]:before,
+.icon:not(.icon-file-directory)[data-name*="omakefile"]:before,
+.title[data-name*="omakefile"]:before,
+.icon:not(.icon-file-directory)[data-name*="CMAKELISTS.TXT"]:before,
+.title[data-name*="CMAKELISTS.TXT"]:before,
+.icon:not(.icon-file-directory)[data-name*="CMAKELISTS.txt"]:before,
+.title[data-name*="CMAKELISTS.txt"]:before,
+.icon:not(.icon-file-directory)[data-name*="CMakeLists.txt"]:before,
+.title[data-name*="CMakeLists.txt"]:before,
+.icon:not(.icon-file-directory)[data-name*="cmakelists.txt"]:before,
+.title[data-name*="cmakelists.txt"]:before,
+.icon:not(.icon-file-directory)[data-name*="Procfile"]:before,
+.title[data-name*="Procfile"]:before,
+.icon:not(.icon-file-directory)[data-name*="TODO"]:before,
+.title[data-name*="TODO"]:before,
+.icon:not(.icon-file-directory)[data-name$="npm-debug.log"]:before,
+.title[data-name$="npm-debug.log"]:before,
+.icon:not(.icon-file-directory)[data-name$=".DS_Store"]:before,
+.title[data-name$=".DS_Store"]:before,
+.icon-R:before,
+.icon-apple:before,
+.icon-argdown:before,
+.icon-asm:before,
+.icon-audio:before,
+.icon-babel:before,
+.icon-bower:before,
+.icon-bsl:before,
+.icon-c-sharp:before,
+.icon-c:before,
+.icon-cake:before,
+.icon-cake_php:before,
+.icon-checkbox-unchecked:before,
+.icon-checkbox:before,
+.icon-cjsx:before,
+.icon-clock:before,
+.icon-clojure:before,
+.icon-code-climate:before,
+.icon-code-search:before,
+.icon-coffee:before,
+.icon-coffee_erb:before,
+.icon-coldfusion:before,
+.icon-config:before,
+.icon-cpp:before,
+.icon-crystal:before,
+.icon-crystal_embedded:before,
+.icon-css:before,
+.icon-csv:before,
+.icon-cu:before,
+.icon-d:before,
+.icon-dart:before,
+.icon-db:before,
+.icon-default:before,
+.icon-deprecation-cop:before,
+.icon-docker:before,
+.icon-editorconfig:before,
+.icon-ejs:before,
+.icon-elixir:before,
+.icon-elixir_script:before,
+.icon-elm:before,
+.icon-error:before,
+.icon-eslint:before,
+.icon-ethereum:before,
+.icon-f-sharp:before,
+.icon-favicon:before,
+.icon-firebase:before,
+.icon-firefox:before,
+.icon-folder:before,
+.icon-font:before,
+.icon-git:before,
+.icon-git_folder:before,
+.icon-git_ignore:before,
+.icon-github:before,
+.icon-go:before,
+.icon-go2:before,
+.icon-gradle:before,
+.icon-grails:before,
+.icon-graphql:before,
+.icon-grunt:before,
+.icon-gulp:before,
+.icon-hacklang:before,
+.icon-haml:before,
+.icon-happenings:before,
+.icon-haskell:before,
+.icon-haxe:before,
+.icon-heroku:before,
+.icon-hex:before,
+.icon-html:before,
+.icon-html_erb:before,
+.icon-ignored:before,
+.icon-illustrator:before,
+.icon-image:before,
+.icon-info:before,
+.icon-ionic:before,
+.icon-jade:before,
+.icon-java:before,
+.icon-javascript:before,
+.icon-jenkins:before,
+.icon-jinja:before,
+.icon-js_erb:before,
+.icon-json:before,
+.icon-julia:before,
+.icon-karma:before,
+.icon-kotlin:before,
+.icon-less:before,
+.icon-license:before,
+.icon-liquid:before,
+.icon-livescript:before,
+.icon-lock:before,
+.icon-lua:before,
+.icon-makefile:before,
+.icon-markdown:before,
+.icon-maven:before,
+.icon-mdo:before,
+.icon-mustache:before,
+.icon-new-file:before,
+.icon-nim:before,
+.icon-npm:before,
+.icon-npm_ignored:before,
+.icon-nunjucks:before,
+.icon-ocaml:before,
+.icon-odata:before,
+.icon-pddl:before,
+.icon-pdf:before,
+.icon-perl:before,
+.icon-photoshop:before,
+.icon-php:before,
+.icon-plan:before,
+.icon-platformio:before,
+.icon-powershell:before,
+.icon-project:before,
+.icon-prolog:before,
+.icon-pug:before,
+.icon-puppet:before,
+.icon-python:before,
+.icon-rails:before,
+.icon-react:before,
+.icon-reasonml:before,
+.icon-rollup:before,
+.icon-ruby:before,
+.icon-rust:before,
+.icon-salesforce:before,
+.icon-sass:before,
+.icon-sbt:before,
+.icon-scala:before,
+.icon-search:before,
+.icon-settings:before,
+.icon-shell:before,
+.icon-slim:before,
+.icon-smarty:before,
+.icon-spring:before,
+.icon-stylelint:before,
+.icon-stylus:before,
+.icon-sublime:before,
+.icon-svg:before,
+.icon-swift:before,
+.icon-terraform:before,
+.icon-tex:before,
+.icon-time-cop:before,
+.icon-todo:before,
+.icon-tsconfig:before,
+.icon-twig:before,
+.icon-typescript:before,
+.icon-vala:before,
+.icon-video:before,
+.icon-vue:before,
+.icon-wasm:before,
+.icon-wat:before,
+.icon-webpack:before,
+.icon-wgt:before,
+.icon-windows:before,
+.icon-word:before,
+.icon-xls:before,
+.icon-xml:before,
+.icon-yarn:before,
+.icon-yml:before,
+.icon-zip:before {
+  font-family: 'seti';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+}
+.icon-R:before {
+  content: '\E001';
+  color: #d4d7d6;
+}
+.icon-apple:before {
+  content: '\E002';
+  color: #d4d7d6;
+}
+.icon-argdown:before {
+  content: '\E003';
+  color: #d4d7d6;
+}
+.icon-asm:before {
+  content: '\E004';
+  color: #d4d7d6;
+}
+.icon-audio:before {
+  content: '\E005';
+  color: #d4d7d6;
+}
+.icon-babel:before {
+  content: '\E006';
+  color: #d4d7d6;
+}
+.icon-bower:before {
+  content: '\E007';
+  color: #d4d7d6;
+}
+.icon-bsl:before {
+  content: '\E008';
+  color: #d4d7d6;
+}
+.icon-c-sharp:before {
+  content: '\E009';
+  color: #d4d7d6;
+}
+.icon-c:before {
+  content: '\E00A';
+  color: #d4d7d6;
+}
+.icon-cake:before {
+  content: '\E00B';
+  color: #d4d7d6;
+}
+.icon-cake_php:before {
+  content: '\E00C';
+  color: #d4d7d6;
+}
+.icon-checkbox-unchecked:before {
+  content: '\E00D';
+  color: #d4d7d6;
+}
+.icon-checkbox:before {
+  content: '\E00E';
+  color: #d4d7d6;
+}
+.icon-cjsx:before {
+  content: '\E00F';
+  color: #d4d7d6;
+}
+.icon-clock:before {
+  content: '\E010';
+  color: #d4d7d6;
+}
+.icon-clojure:before {
+  content: '\E011';
+  color: #d4d7d6;
+}
+.icon-code-climate:before {
+  content: '\E012';
+  color: #d4d7d6;
+}
+.icon-code-search:before {
+  content: '\E013';
+  color: #d4d7d6;
+}
+.icon-coffee:before {
+  content: '\E014';
+  color: #d4d7d6;
+}
+.icon-coffee_erb:before {
+  content: '\E015';
+  color: #d4d7d6;
+}
+.icon-coldfusion:before {
+  content: '\E016';
+  color: #d4d7d6;
+}
+.icon-config:before {
+  content: '\E017';
+  color: #d4d7d6;
+}
+.icon-cpp:before {
+  content: '\E018';
+  color: #d4d7d6;
+}
+.icon-crystal:before {
+  content: '\E019';
+  color: #d4d7d6;
+}
+.icon-crystal_embedded:before {
+  content: '\E01A';
+  color: #d4d7d6;
+}
+.icon-css:before {
+  content: '\E01B';
+  color: #d4d7d6;
+}
+.icon-csv:before {
+  content: '\E01C';
+  color: #d4d7d6;
+}
+.icon-cu:before {
+  content: '\E01D';
+  color: #d4d7d6;
+}
+.icon-d:before {
+  content: '\E01E';
+  color: #d4d7d6;
+}
+.icon-dart:before {
+  content: '\E01F';
+  color: #d4d7d6;
+}
+.icon-db:before {
+  content: '\E020';
+  color: #d4d7d6;
+}
+.icon-default:before {
+  content: '\E021';
+  color: #d4d7d6;
+}
+.icon-deprecation-cop:before {
+  content: '\E022';
+  color: #d4d7d6;
+}
+.icon-docker:before {
+  content: '\E023';
+  color: #d4d7d6;
+}
+.icon-editorconfig:before {
+  content: '\E024';
+  color: #d4d7d6;
+}
+.icon-ejs:before {
+  content: '\E025';
+  color: #d4d7d6;
+}
+.icon-elixir:before {
+  content: '\E026';
+  color: #d4d7d6;
+}
+.icon-elixir_script:before {
+  content: '\E027';
+  color: #d4d7d6;
+}
+.icon-elm:before {
+  content: '\E028';
+  color: #d4d7d6;
+}
+.icon-error:before {
+  content: '\E029';
+  color: #d4d7d6;
+}
+.icon-eslint:before {
+  content: '\E02A';
+  color: #d4d7d6;
+}
+.icon-ethereum:before {
+  content: '\E02B';
+  color: #d4d7d6;
+}
+.icon-f-sharp:before {
+  content: '\E02C';
+  color: #d4d7d6;
+}
+.icon-favicon:before {
+  content: '\E02D';
+  color: #d4d7d6;
+}
+.icon-firebase:before {
+  content: '\E02E';
+  color: #d4d7d6;
+}
+.icon-firefox:before {
+  content: '\E02F';
+  color: #d4d7d6;
+}
+.icon-folder:before {
+  content: '\E030';
+  color: #d4d7d6;
+}
+.icon-font:before {
+  content: '\E031';
+  color: #d4d7d6;
+}
+.icon-git:before {
+  content: '\E032';
+  color: #d4d7d6;
+}
+.icon-git_folder:before {
+  content: '\E033';
+  color: #d4d7d6;
+}
+.icon-git_ignore:before {
+  content: '\E034';
+  color: #d4d7d6;
+}
+.icon-github:before {
+  content: '\E035';
+  color: #d4d7d6;
+}
+.icon-go:before {
+  content: '\E036';
+  color: #d4d7d6;
+}
+.icon-go2:before {
+  content: '\E037';
+  color: #d4d7d6;
+}
+.icon-gradle:before {
+  content: '\E038';
+  color: #d4d7d6;
+}
+.icon-grails:before {
+  content: '\E039';
+  color: #d4d7d6;
+}
+.icon-graphql:before {
+  content: '\E03A';
+  color: #d4d7d6;
+}
+.icon-grunt:before {
+  content: '\E03B';
+  color: #d4d7d6;
+}
+.icon-gulp:before {
+  content: '\E03C';
+  color: #d4d7d6;
+}
+.icon-hacklang:before {
+  content: '\E03D';
+  color: #d4d7d6;
+}
+.icon-haml:before {
+  content: '\E03E';
+  color: #d4d7d6;
+}
+.icon-happenings:before {
+  content: '\E03F';
+  color: #d4d7d6;
+}
+.icon-haskell:before {
+  content: '\E040';
+  color: #d4d7d6;
+}
+.icon-haxe:before {
+  content: '\E041';
+  color: #d4d7d6;
+}
+.icon-heroku:before {
+  content: '\E042';
+  color: #d4d7d6;
+}
+.icon-hex:before {
+  content: '\E043';
+  color: #d4d7d6;
+}
+.icon-html:before {
+  content: '\E044';
+  color: #d4d7d6;
+}
+.icon-html_erb:before {
+  content: '\E045';
+  color: #d4d7d6;
+}
+.icon-ignored:before {
+  content: '\E046';
+  color: #d4d7d6;
+}
+.icon-illustrator:before {
+  content: '\E047';
+  color: #d4d7d6;
+}
+.icon-image:before {
+  content: '\E048';
+  color: #d4d7d6;
+}
+.icon-info:before {
+  content: '\E049';
+  color: #d4d7d6;
+}
+.icon-ionic:before {
+  content: '\E04A';
+  color: #d4d7d6;
+}
+.icon-jade:before {
+  content: '\E04B';
+  color: #d4d7d6;
+}
+.icon-java:before {
+  content: '\E04C';
+  color: #d4d7d6;
+}
+.icon-javascript:before {
+  content: '\E04D';
+  color: #d4d7d6;
+}
+.icon-jenkins:before {
+  content: '\E04E';
+  color: #d4d7d6;
+}
+.icon-jinja:before {
+  content: '\E04F';
+  color: #d4d7d6;
+}
+.icon-js_erb:before {
+  content: '\E050';
+  color: #d4d7d6;
+}
+.icon-json:before {
+  content: '\E051';
+  color: #d4d7d6;
+}
+.icon-julia:before {
+  content: '\E052';
+  color: #d4d7d6;
+}
+.icon-karma:before {
+  content: '\E053';
+  color: #d4d7d6;
+}
+.icon-kotlin:before {
+  content: '\E054';
+  color: #d4d7d6;
+}
+.icon-less:before {
+  content: '\E055';
+  color: #d4d7d6;
+}
+.icon-license:before {
+  content: '\E056';
+  color: #d4d7d6;
+}
+.icon-liquid:before {
+  content: '\E057';
+  color: #d4d7d6;
+}
+.icon-livescript:before {
+  content: '\E058';
+  color: #d4d7d6;
+}
+.icon-lock:before {
+  content: '\E059';
+  color: #d4d7d6;
+}
+.icon-lua:before {
+  content: '\E05A';
+  color: #d4d7d6;
+}
+.icon-makefile:before {
+  content: '\E05B';
+  color: #d4d7d6;
+}
+.icon-markdown:before {
+  content: '\E05C';
+  color: #d4d7d6;
+}
+.icon-maven:before {
+  content: '\E05D';
+  color: #d4d7d6;
+}
+.icon-mdo:before {
+  content: '\E05E';
+  color: #d4d7d6;
+}
+.icon-mustache:before {
+  content: '\E05F';
+  color: #d4d7d6;
+}
+.icon-new-file:before {
+  content: '\E060';
+  color: #d4d7d6;
+}
+.icon-nim:before {
+  content: '\E061';
+  color: #d4d7d6;
+}
+.icon-npm:before {
+  content: '\E062';
+  color: #d4d7d6;
+}
+.icon-npm_ignored:before {
+  content: '\E063';
+  color: #d4d7d6;
+}
+.icon-nunjucks:before {
+  content: '\E064';
+  color: #d4d7d6;
+}
+.icon-ocaml:before {
+  content: '\E065';
+  color: #d4d7d6;
+}
+.icon-odata:before {
+  content: '\E066';
+  color: #d4d7d6;
+}
+.icon-pddl:before {
+  content: '\E067';
+  color: #d4d7d6;
+}
+.icon-pdf:before {
+  content: '\E068';
+  color: #d4d7d6;
+}
+.icon-perl:before {
+  content: '\E069';
+  color: #d4d7d6;
+}
+.icon-photoshop:before {
+  content: '\E06A';
+  color: #d4d7d6;
+}
+.icon-php:before {
+  content: '\E06B';
+  color: #d4d7d6;
+}
+.icon-plan:before {
+  content: '\E06C';
+  color: #d4d7d6;
+}
+.icon-platformio:before {
+  content: '\E06D';
+  color: #d4d7d6;
+}
+.icon-powershell:before {
+  content: '\E06E';
+  color: #d4d7d6;
+}
+.icon-project:before {
+  content: '\E06F';
+  color: #d4d7d6;
+}
+.icon-prolog:before {
+  content: '\E070';
+  color: #d4d7d6;
+}
+.icon-pug:before {
+  content: '\E071';
+  color: #d4d7d6;
+}
+.icon-puppet:before {
+  content: '\E072';
+  color: #d4d7d6;
+}
+.icon-python:before {
+  content: '\E073';
+  color: #d4d7d6;
+}
+.icon-rails:before {
+  content: '\E074';
+  color: #d4d7d6;
+}
+.icon-react:before {
+  content: '\E075';
+  color: #d4d7d6;
+}
+.icon-reasonml:before {
+  content: '\E076';
+  color: #d4d7d6;
+}
+.icon-rollup:before {
+  content: '\E077';
+  color: #d4d7d6;
+}
+.icon-ruby:before {
+  content: '\E078';
+  color: #d4d7d6;
+}
+.icon-rust:before {
+  content: '\E079';
+  color: #d4d7d6;
+}
+.icon-salesforce:before {
+  content: '\E07A';
+  color: #d4d7d6;
+}
+.icon-sass:before {
+  content: '\E07B';
+  color: #d4d7d6;
+}
+.icon-sbt:before {
+  content: '\E07C';
+  color: #d4d7d6;
+}
+.icon-scala:before {
+  content: '\E07D';
+  color: #d4d7d6;
+}
+.icon-search:before {
+  content: '\E07E';
+  color: #d4d7d6;
+}
+.icon-settings:before {
+  content: '\E07F';
+  color: #d4d7d6;
+}
+.icon-shell:before {
+  content: '\E080';
+  color: #d4d7d6;
+}
+.icon-slim:before {
+  content: '\E081';
+  color: #d4d7d6;
+}
+.icon-smarty:before {
+  content: '\E082';
+  color: #d4d7d6;
+}
+.icon-spring:before {
+  content: '\E083';
+  color: #d4d7d6;
+}
+.icon-stylelint:before {
+  content: '\E084';
+  color: #d4d7d6;
+}
+.icon-stylus:before {
+  content: '\E085';
+  color: #d4d7d6;
+}
+.icon-sublime:before {
+  content: '\E086';
+  color: #d4d7d6;
+}
+.icon-svg:before {
+  content: '\E087';
+  color: #d4d7d6;
+}
+.icon-swift:before {
+  content: '\E088';
+  color: #d4d7d6;
+}
+.icon-terraform:before {
+  content: '\E089';
+  color: #d4d7d6;
+}
+.icon-tex:before {
+  content: '\E08A';
+  color: #d4d7d6;
+}
+.icon-time-cop:before {
+  content: '\E08B';
+  color: #d4d7d6;
+}
+.icon-todo:before {
+  content: '\E08C';
+  color: #d4d7d6;
+}
+.icon-tsconfig:before {
+  content: '\E08D';
+  color: #d4d7d6;
+}
+.icon-twig:before {
+  content: '\E08E';
+  color: #d4d7d6;
+}
+.icon-typescript:before {
+  content: '\E08F';
+  color: #d4d7d6;
+}
+.icon-vala:before {
+  content: '\E090';
+  color: #d4d7d6;
+}
+.icon-video:before {
+  content: '\E091';
+  color: #d4d7d6;
+}
+.icon-vue:before {
+  content: '\E092';
+  color: #d4d7d6;
+}
+.icon-wasm:before {
+  content: '\E093';
+  color: #d4d7d6;
+}
+.icon-wat:before {
+  content: '\E094';
+  color: #d4d7d6;
+}
+.icon-webpack:before {
+  content: '\E095';
+  color: #d4d7d6;
+}
+.icon-wgt:before {
+  content: '\E096';
+  color: #d4d7d6;
+}
+.icon-windows:before {
+  content: '\E097';
+  color: #d4d7d6;
+}
+.icon-word:before {
+  content: '\E098';
+  color: #d4d7d6;
+}
+.icon-xls:before {
+  content: '\E099';
+  color: #d4d7d6;
+}
+.icon-xml:before {
+  content: '\E09A';
+  color: #d4d7d6;
+}
+.icon-yarn:before {
+  content: '\E09B';
+  color: #d4d7d6;
+}
+.icon-yml:before {
+  content: '\E09C';
+  color: #d4d7d6;
+}
+.icon-zip:before {
+  content: '\E09D';
+  color: #d4d7d6;
+}
